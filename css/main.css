@@ -3195,19 +3195,22 @@ html, body {
 .header {
   background-color: #290000;
   height: 600px;
-  border-top: solid 10px #76c38f; }
-  .header .container .menu-bar {
-    padding-top: 40px; }
-    .header .container .menu-bar .menu {
+  border-top: solid 5px #76c38f; }
+  .header .menu-bar {
+    padding-top: 48px; }
+    .header .menu-bar .menu {
       float: right; }
-      .header .container .menu-bar .menu li a {
+      .header .menu-bar .menu li a {
+        padding: 8px 15px;
+        margin-right: 10px;
+        font-size: 13px;
         color: #ffffff; }
-        .header .container .menu-bar .menu li a:hover {
+        .header .menu-bar .menu li a:hover {
           background-color: #76c38f;
           border-radius: 10px; }
-        .header .container .menu-bar .menu li a:focus {
+        .header .menu-bar .menu li a:focus {
           background-color: transparent; }
-      .header .container .menu-bar .menu li .active {
+      .header .menu-bar .menu li .active {
         background-color: #76c38f;
         border-radius: 10px; }
 

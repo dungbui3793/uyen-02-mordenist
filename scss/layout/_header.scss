@@ -1,31 +1,34 @@
 .header {
-  background-color: #290000;
-  height: 600px;
-  border-top: solid 10px #76c38f;
-  // TODO sua border top
-  // TODO sua height active menu
-  // TODO margin giua cac menu ko dung
-  .menu-bar {
-    padding-top: 40px;
-    .menu {
-      float: right;
-      li {
-        a {
-          color: #ffffff;
-          &:hover {
-            background-color: #76c38f;
-            border-radius: 10px;
-          }
-          &:focus {
-            background-color: transparent;
-          }
-        }
-        .active {
-          background-color: #76c38f;
-          border-radius: 10px;
-        }
-      }
-    }
-  }
+    background-color: #290000;
+    height: 600px;
+    border-top: solid 5px #76c38f;
+    // TODO sua border top
+    // TODO sua height active menu
+    // TODO margin giua cac menu ko dung
+    .menu-bar {
+        padding-top: 48px;
+        .menu {
+            float: right;
+            li {
+                a {
+                    padding: 8px 15px;
+                    margin-right: 10px;
+                    font-size: 13px;
+                    color: #ffffff;
 
+                    &:hover {
+                        background-color: #76c38f;
+                        border-radius: 10px;
+                    }
+                    &:focus {
+                        background-color: transparent;
+                    }
+                }
+                .active {
+                    background-color: #76c38f;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
 }
