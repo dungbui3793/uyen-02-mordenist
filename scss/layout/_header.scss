@@ -1,0 +1,33 @@
+.header{
+    background-color: #290000;
+    height: 600px;
+    border-top: solid 10px #76c38f;
+    .container{
+        .menu-bar{
+            padding-top: 40px;
+            .menu{
+                float: right;
+                li{
+                    a{
+                        color: #ffffff;
+                        &:hover{
+                            background-color: #76c38f;
+                            border-radius: 10px;
+                        }
+                        &:focus{
+                            background-color: transparent;
+                        }
+                    }
+                    .active{
+                        background-color: #76c38f;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
