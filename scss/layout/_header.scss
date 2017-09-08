@@ -1,34 +1,36 @@
 .header {
-    background-color: #290000;
-    height: 600px;
-    border-top: solid 5px #76c38f;
-    // TODO sua border top
-    // TODO sua height active menu
-    // TODO margin giua cac menu ko dung
-    .menu-bar {
-        padding-top: 48px;
-        .menu {
-            float: right;
-            li {
-                a {
-                    padding: 8px 15px;
-                    margin-right: 10px;
-                    font-size: 13px;
-                    color: #ffffff;
+  background-color: #290000;
+  height: 600px;
+  border-top: solid 5px #76c38f;
+  //TODO sua ma~ mau 76c38f thanh variable de su dung nhieu lan
 
-                    &:hover {
-                        background-color: #76c38f;
-                        border-radius: 10px;
-                    }
-                    &:focus {
-                        background-color: transparent;
-                    }
-                }
-                .active {
-                    background-color: #76c38f;
-                    border-radius: 10px;
-                }
-            }
+  .menu-bar {
+    padding-top: 48px;
+    .menu {
+      float: right;
+      li {
+        a {
+          padding: 8px 15px;
+          margin-right: 10px;
+          font-size: 13px;
+          color: #ffffff;
+          //TODO tim hieu muc dich va cach su dung mixin css, va ham transition trong css
+          @include css3-prefix(transition, background-color .5s);
+          border-radius: 10px;
+          &:hover {
+            background-color: #76c38f;
+            //TODO border radius ko su dung cho selector :hover, focus, active, no dung cho selector chinh
+            //border-radius: 10px;
+          }
+          &:focus {
+            background-color: transparent;
+          }
         }
+        .active {
+          background-color: #76c38f;
+          border-radius: 10px;
+        }
+      }
     }
+  }
 }
