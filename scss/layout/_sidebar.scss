@@ -1,13 +1,12 @@
 .slidebar{
-    margin-top: 50px;
     .block-text{
         top: 50%;
         transform: translateY(50%);
         .contain-text{
             .title-courousel {
                 color: #ffffff;
-                margin-top: 0;
-                margin-bottom: 20px;
+                margin: 20px 0;
+
                 font-size: 46px;
             }
             .para-courousel {
@@ -26,12 +25,13 @@
         }
     }
     .block-media {
+        margin-top: 50px;
         .circle {
             border: #6b6b6b solid 20px;
             border-radius: 50%;
             background-color: #333333;
-            width: 423px;
-            height: 430px;
+            width: 380px;
+            height: 380px;
             float: right;
             position: relative;
             .slider-nav {
@@ -40,25 +40,14 @@
                 top: 50%;
                 @include css3-prefix('transform', 'translate(50%,50%)');
                 .slick-next {
-                    right: 145px;
+                    right: 115px;
                 }
                 .slick-prev {
-                    left: -935px;
+                    left: -951px;
                 }
             }
-
         }
     }
-
-}
-
-
-
-
-
-
-.img{
-    color: #ffffff;
 }
 
 
