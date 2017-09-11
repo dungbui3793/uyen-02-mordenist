@@ -2,8 +2,6 @@
   background-color: #290000;
   height: 600px;
   border-top: solid 5px $light-green;
-  //TODO sua ma~ mau 76c38f thanh variable de su dung nhieu lan
-
   .menu-bar {
     padding-top: 48px;
     .menu {
@@ -14,12 +12,10 @@
           margin-right: 10px;
           font-size: 13px;
           color: #ffffff;
-          //TODO tim hieu muc dich va cach su dung mixin css, va ham transition trong css
           @include css3-prefix(transition, .5s);
           border-radius: 10px;
           &:hover {
             background-color: $light-green;
-            //TODO border radius ko su dung cho selector :hover, focus, active, no dung cho selector chinh
           }
           &:focus {
             background-color: transparent;
