@@ -3311,14 +3311,17 @@ html, body {
   display: inline-block; }
 
 .slidebar {
-  margin-top: 50px; }
+  margin-top: 40px; }
   .slidebar .block-text {
     top: 50%;
     transform: translateY(50%); }
     .slidebar .block-text .slider-nav .slick-next {
-      right: -592px; }
+      right: -600px; }
+    .slidebar .block-text .slider-nav .slick-prev {
+      left: -15px; }
     .slidebar .block-text .slider-nav .contain-text {
-      outline: none; }
+      outline: none;
+      margin-left: 50px; }
       .slidebar .block-text .slider-nav .contain-text .title-courousel {
         color: #ffffff;
         margin-top: 0;
@@ -3327,7 +3330,8 @@ html, body {
       .slidebar .block-text .slider-nav .contain-text .para-courousel {
         color: #979797;
         font-size: 12px;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        width: 400px; }
       .slidebar .block-text .slider-nav .contain-text .btn-courousel {
         border-radius: 10px;
         background-color: #76c38f;
@@ -3335,22 +3339,21 @@ html, body {
         color: #ffffff;
         padding: 10px 15px;
         margin-top: 20px; }
-  .slidebar .block-media .circle {
-    border: #6b6b6b solid 20px;
-    border-radius: 50%;
-    background-color: #333333;
-    width: 430px;
-    height: 430px;
-    float: right;
-    position: relative;
-    overflow: hidden; }
-    .slidebar .block-media .circle .slider-for {
-      width: 100%;
-      margin-bottom: 0; }
-      .slidebar .block-media .circle .slider-for .img {
-        text-align: center; }
-        .slidebar .block-media .circle .slider-for .img img {
-          width: 100%; }
-
-.img {
-  color: #ffffff; }
+  .slidebar .block-media {
+    padding-right: 40px; }
+    .slidebar .block-media .circle {
+      border: #6b6b6b solid 20px;
+      border-radius: 50%;
+      background-color: #333333;
+      width: 430px;
+      height: 430px;
+      float: right;
+      position: relative;
+      overflow: hidden; }
+      .slidebar .block-media .circle .slider-for {
+        width: 100%;
+        margin-bottom: 0; }
+        .slidebar .block-media .circle .slider-for .img {
+          text-align: center; }
+          .slidebar .block-media .circle .slider-for .img img {
+            width: 100%; }
