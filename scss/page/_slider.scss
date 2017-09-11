@@ -3,27 +3,34 @@
   .block-text{
     top: 50%;
     transform: translateY(50%);
-    .contain-text{
-      .title-courousel {
-        color: #ffffff;
-        margin-top: 0;
-        margin-bottom: 20px;
-        font-size: 46px;
+      .slider-nav{
+          .slick-next {
+              right: -592px;
+          }
+          .contain-text{
+              outline: none;
+              .title-courousel {
+                  color: #ffffff;
+                  margin-top: 0;
+                  margin-bottom: 20px;
+                  font-size: 46px;
+              }
+              .para-courousel {
+                  color: #979797;
+                  font-size: 12px;
+                  margin-bottom: 0;
+              }
+              .btn-courousel{
+                  border-radius: 10px;
+                  background-color :$light-green;
+                  border: none;
+                  color: #ffffff;
+                  padding: 10px 15px;
+                  margin-top: 20px;
+              }
+          }
       }
-      .para-courousel {
-        color: #979797;
-        font-size: 12px;
-        margin-bottom: 0;
-      }
-      .btn-courousel{
-        border-radius: 10px;
-        background-color :$light-green;
-        border: none;
-        color: #ffffff;
-        padding: 10px 15px;
-        margin-top: 20px;
-      }
-    }
+
   }
   .block-media {
     .circle {
@@ -35,26 +42,16 @@
       float: right;
       position: relative;
       overflow: hidden;
-      .slider-nav {
+      .slider-for {
         width: 100%;
         margin-bottom: 0;
-        //position: absolute;
-        //top: 50%;
-        //@include css3-prefix('transform', 'translate(50%,50%)');
         .img {
           text-align: center;
           img {
             width: 100%;
           }
         }
-        .slick-next {
-          right: 145px;
-        }
-        .slick-prev {
-          left: -935px;
-        }
       }
-
     }
   }
 
