@@ -3204,15 +3204,68 @@ html, body {
         padding: 8px 15px;
         margin-right: 10px;
         font-size: 13px;
-        color: #ffffff; }
+        color: #ffffff;
+        -webkit-transition: 0.5s;
+        -khtml-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        border-radius: 10px; }
         .header .menu-bar .menu li a:hover {
-          background-color: #76c38f;
-          border-radius: 10px; }
+          background-color: #76c38f; }
         .header .menu-bar .menu li a:focus {
           background-color: transparent; }
       .header .menu-bar .menu li .active {
         background-color: #76c38f;
         border-radius: 10px; }
+
+.slidebar {
+  margin-top: 50px; }
+  .slidebar .block-text {
+    top: 50%;
+    transform: translateY(50%); }
+    .slidebar .block-text .contain-text .title-courousel {
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 46px; }
+    .slidebar .block-text .contain-text .para-courousel {
+      color: #979797;
+      font-size: 12px;
+      margin-bottom: 0; }
+    .slidebar .block-text .contain-text .btn-courousel {
+      border-radius: 10px;
+      background-color: #76c38f;
+      border: none;
+      color: #ffffff;
+      padding: 10px 15px;
+      margin-top: 20px; }
+  .slidebar .block-media .circle {
+    border: #6b6b6b solid 20px;
+    border-radius: 50%;
+    background-color: #333333;
+    width: 423px;
+    height: 430px;
+    float: right;
+    position: relative; }
+    .slidebar .block-media .circle .slider-nav {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(50%,50%);
+      -khtml-transform: translate(50%,50%);
+      -moz-transform: translate(50%,50%);
+      -ms-transform: translate(50%,50%);
+      -o-transform: translate(50%,50%);
+      transform: translate(50%,50%); }
+      .slidebar .block-media .circle .slider-nav .slick-next {
+        right: 145px; }
+      .slidebar .block-media .circle .slider-nav .slick-prev {
+        left: -935px; }
+
+.img {
+  color: #ffffff; }
 
 .navbar-custom {
   padding: 10px 0; }

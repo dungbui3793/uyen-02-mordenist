@@ -1,7 +1,7 @@
 .header {
   background-color: #290000;
   height: 600px;
-  border-top: solid 5px #76c38f;
+  border-top: solid 5px $light-green;
   //TODO sua ma~ mau 76c38f thanh variable de su dung nhieu lan
 
   .menu-bar {
@@ -15,19 +15,18 @@
           font-size: 13px;
           color: #ffffff;
           //TODO tim hieu muc dich va cach su dung mixin css, va ham transition trong css
-          @include css3-prefix(transition, background-color .5s);
+          @include css3-prefix(transition, .5s);
           border-radius: 10px;
           &:hover {
-            background-color: #76c38f;
+            background-color: $light-green;
             //TODO border radius ko su dung cho selector :hover, focus, active, no dung cho selector chinh
-            //border-radius: 10px;
           }
           &:focus {
             background-color: transparent;
           }
         }
         .active {
-          background-color: #76c38f;
+          background-color: $light-green;
           border-radius: 10px;
         }
       }
