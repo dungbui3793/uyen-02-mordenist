@@ -21,7 +21,6 @@
                   font-size: 46px;
               }
               .para-courousel {
-                  //TODO style lai
                   color: #979797;
                   font-size: 12px;
                   margin-bottom: 0;
@@ -41,7 +40,7 @@
   .block-media {
       padding-right: 40px;
     .circle {
-      border: #6b6b6b solid 20px;
+      border: #6b6b6b solid 25px;
       border-radius: 50%;
       background-color: #333333;
       width: 430px;
@@ -63,6 +62,10 @@
   }
 }
 
-//TODO style nav slick sider
+//TODO style nav slick sider 2
+//TODO xem lai margin
 
 
+.slick-prev, .slick-next {
+
+}
