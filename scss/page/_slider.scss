@@ -1,19 +1,25 @@
-.slidebar{
+.slidebar {
   margin-top: 40px;
-  .block-text{
-    top: 50%;
-    transform: translateY(50%);
-      .slider-nav{
-          //padding-left: 40px;
+  .block-text {
+      position: relative;
+      z-index: 1;
+      @include css3-prefix("transform", translateY(32%));
+      .slider-nav {
+          padding-left: 50px;
           .slick-next {
-              right: -600px;
+              right: -495px;
+              width: 15px;
+              height: 28px;
+              //padding-left: 15px;
           }
           .slick-prev {
               left: -15px;
+              width: 15px;
+              height: 28px;
           }
           .contain-text{
               outline: none;
-              margin-left: 50px;
+              margin-bottom: 0;
               .title-courousel {
                   color: #ffffff;
                   margin-top: 0;
@@ -24,7 +30,7 @@
                   color: #979797;
                   font-size: 12px;
                   margin-bottom: 0;
-                  width: 400px;
+                  width: 300px;
               }
               .btn-courousel{
                   border-radius: 10px;
@@ -38,7 +44,7 @@
       }
   }
   .block-media {
-      padding-right: 40px;
+      padding-right: 65px;
     .circle {
       border: #6b6b6b solid 25px;
       border-radius: 50%;
@@ -66,6 +72,4 @@
 //TODO xem lai margin
 
 
-.slick-prev, .slick-next {
 
-}
