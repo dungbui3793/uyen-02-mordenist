@@ -3369,3 +3369,105 @@ html, body {
           text-align: center; }
           .slidebar .block-media .circle .slider-for .img img {
             width: 100%; }
+
+.body {
+  height: 973px;
+  background-color: #660000; }
+  .body .container {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .body .container .clearfix {
+      margin: 0 -10px; }
+      .body .container .clearfix .service-title {
+        width: 25%;
+        padding: 0 10px;
+        float: left; }
+        .body .container .clearfix .service-title .service-wrap {
+          background-color: #fff;
+          height: 304px;
+          position: relative;
+          text-align: center; }
+          .body .container .clearfix .service-title .service-wrap .square-shape {
+            margin-top: 20px;
+            vertical-align: middle; }
+          .body .container .clearfix .service-title .service-wrap .title {
+            font-size: 32px;
+            margin-top: 10px; }
+          .body .container .clearfix .service-title .service-wrap .para-text {
+            color: #979797; }
+        .body .container .clearfix .service-title .custom-service {
+          background-color: #76c38f; }
+          .body .container .clearfix .service-title .custom-service .square-shape {
+            background-color: #fff;
+            color: #000000; }
+          .body .container .clearfix .service-title .custom-service .title {
+            color: #fff; }
+          .body .container .clearfix .service-title .custom-service .para-text {
+            color: #fff; }
+    .body .container .lastest-work {
+      padding-bottom: 60px;
+      padding-top: 87px; }
+      .body .container .lastest-work .lastest-work-title {
+        position: relative;
+        height: 40px; }
+        .body .container .lastest-work .lastest-work-title .lastest-work-wrap {
+          border-radius: 10px;
+          padding: 10px 15px;
+          text-align: center;
+          color: #fff;
+          position: absolute;
+          top: 50%;
+          right: 50%;
+          -webkit-transform: translate(50%, -86%);
+          -khtml-transform: translate(50%, -86%);
+          -moz-transform: translate(50%, -86%);
+          -ms-transform: translate(50%, -86%);
+          -o-transform: translate(50%, -86%);
+          transform: translate(50%, -86%);
+          background-color: #3c3c3c; }
+          .body .container .lastest-work .lastest-work-title .lastest-work-wrap h2 {
+            font-size: 32px;
+            margin: 0; }
+        .body .container .lastest-work .lastest-work-title .border {
+          border-bottom: solid 3px #3c3c3c;
+          width: 960px; }
+      .body .container .lastest-work .clearfix {
+        margin: 0 -15px;
+        padding-top: 3px; }
+        .body .container .lastest-work .clearfix .img-last-work {
+          float: left;
+          padding: 15px 15px;
+          width: 33.3%;
+          position: relative; }
+          .body .container .lastest-work .clearfix .img-last-work .img-wrap {
+            border: 5px #fff solid;
+            position: relative; }
+            .body .container .lastest-work .clearfix .img-last-work .img-wrap img {
+              max-width: 100%; }
+            .body .container .lastest-work .clearfix .img-last-work .img-wrap .text-bottom {
+              text-align: center;
+              position: absolute;
+              width: 100%;
+              background-color: #151515;
+              bottom: 8%;
+              right: 50%;
+              -webkit-transform: translate(50%, 50%);
+              -khtml-transform: translate(50%, 50%);
+              -moz-transform: translate(50%, 50%);
+              -ms-transform: translate(50%, 50%);
+              -o-transform: translate(50%, 50%);
+              transform: translate(50%, 50%); }
+              .body .container .lastest-work .clearfix .img-last-work .img-wrap .text-bottom p {
+                color: #fff;
+                max-width: 100%;
+                font-size: 14px;
+                margin-bottom: 0;
+                line-height: 30px; }
+            .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover .text-bottom {
+              opacity: 0;
+              -webkit-transition: 0.5s;
+              -khtml-transition: 0.5s;
+              -moz-transition: 0.5s;
+              -ms-transition: 0.5s;
+              -o-transition: 0.5s;
+              transition: 0.5s; }
