@@ -3386,24 +3386,45 @@ html, body {
           background-color: #fff;
           height: 304px;
           position: relative;
-          text-align: center; }
+          text-align: center;
+          -webkit-transition: 0.5s;
+          -khtml-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -ms-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; }
           .body .container .clearfix .service-title .service-wrap .square-shape {
             margin-top: 20px;
             vertical-align: middle; }
           .body .container .clearfix .service-title .service-wrap .title {
             font-size: 32px;
-            margin-top: 10px; }
+            margin-top: 10px;
+            -webkit-transition: 0.5s;
+            -khtml-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s; }
           .body .container .clearfix .service-title .service-wrap .para-text {
-            color: #979797; }
-        .body .container .clearfix .service-title .custom-service {
-          background-color: #76c38f; }
-          .body .container .clearfix .service-title .custom-service .square-shape {
-            background-color: #fff;
-            color: #000000; }
-          .body .container .clearfix .service-title .custom-service .title {
-            color: #fff; }
-          .body .container .clearfix .service-title .custom-service .para-text {
-            color: #fff; }
+            color: #979797;
+            font-size: 12px;
+            padding-left: 30px;
+            padding-right: 30px;
+            -webkit-transition: 0.5s;
+            -khtml-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s; }
+          .body .container .clearfix .service-title .service-wrap:hover {
+            background-color: #76c38f; }
+            .body .container .clearfix .service-title .service-wrap:hover .square-shape {
+              background-color: #fff;
+              color: #000000; }
+            .body .container .clearfix .service-title .service-wrap:hover .title {
+              color: #fff; }
+            .body .container .clearfix .service-title .service-wrap:hover .para-text {
+              color: #fff; }
     .body .container .lastest-work {
       padding-bottom: 60px;
       padding-top: 87px; }
@@ -3441,7 +3462,13 @@ html, body {
           position: relative; }
           .body .container .lastest-work .clearfix .img-last-work .img-wrap {
             border: 5px #fff solid;
-            position: relative; }
+            position: relative;
+            -webkit-transition: 0.5s;
+            -khtml-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s; }
             .body .container .lastest-work .clearfix .img-last-work .img-wrap img {
               max-width: 100%; }
             .body .container .lastest-work .clearfix .img-last-work .img-wrap .text-bottom {
@@ -3456,18 +3483,20 @@ html, body {
               -moz-transform: translate(50%, 50%);
               -ms-transform: translate(50%, 50%);
               -o-transform: translate(50%, 50%);
-              transform: translate(50%, 50%); }
-              .body .container .lastest-work .clearfix .img-last-work .img-wrap .text-bottom p {
-                color: #fff;
-                max-width: 100%;
-                font-size: 14px;
-                margin-bottom: 0;
-                line-height: 30px; }
-            .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover .text-bottom {
-              opacity: 0;
+              transform: translate(50%, 50%);
               -webkit-transition: 0.5s;
               -khtml-transition: 0.5s;
               -moz-transition: 0.5s;
               -ms-transition: 0.5s;
               -o-transition: 0.5s;
               transition: 0.5s; }
+              .body .container .lastest-work .clearfix .img-last-work .img-wrap .text-bottom p {
+                color: #fff;
+                max-width: 100%;
+                font-size: 14px;
+                margin-bottom: 0;
+                line-height: 30px; }
+            .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover {
+              border-color: #76c38f; }
+              .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover .text-bottom {
+                opacity: 0; }
