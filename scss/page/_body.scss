@@ -34,6 +34,7 @@
                     @include css3-prefix('transition', '0.5s');
                     &:hover {
                         background-color: $light-green;
+                        cursor: pointer;
                         .square-shape {
                             background-color: #fff;
                             color: #000000;
@@ -44,6 +45,11 @@
                         .para-text{
                             color: #fff;
                         }
+                        .square-shape {
+                            background: url("../../img/img-hover.png");
+
+
+                        }
                     }
                 }
 
@@ -51,33 +57,37 @@
         }
         .lastest-work{
             padding-bottom: 60px;
-            padding-top: 87px;
+            padding-top: 40px;
             .lastest-work-title {
                 position: relative;
-                height: 40px;
+                text-align: center;
+                margin-bottom: 15px;
                 .lastest-work-wrap {
+                    display: inline-block;
                     border-radius: 10px;
-                    padding: 10px 15px;
-                    text-align: center;
                     color: #fff;
+                    background-color: #3c3c3c;
+                }
+                h1 {
+                    font-size: 32px;
+                    margin: 0;
+                    padding: 10px 15px;
+                    position: relative;
+                    z-index: 1;
+
+                }
+
+                .border{
+                    height: 3px;
+                    width: 100%;
+                    background-color: #3c3c3c;
                     position: absolute;
                     top: 50%;
-                    right: 50%;
-                    @include css3-prefix('transform','translate(50%, -86%)');
-                    background-color: #3c3c3c;
-                    h2 {
-                        font-size: 32px;
-                        margin: 0;
-                    }
-                }
-                .border{
-                    border-bottom: solid 3px #3c3c3c;
-                    width: 960px;
+                    @include css3-prefix('transform', 'translateY(50%)');
                 }
             }
             .clearfix{
                 margin: 0 -15px;
-                padding-top: 3px;
                 .img-last-work{
                     float: left;
                     padding: 15px 15px;
@@ -109,6 +119,7 @@
                         @include css3-prefix('transition', '0.5s');
                         &:hover {
                             border-color: $light-green;
+                            cursor: pointer;
                             .text-bottom {
                                 opacity: 0;
                             }

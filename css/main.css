@@ -3417,7 +3417,8 @@ html, body {
             -o-transition: 0.5s;
             transition: 0.5s; }
           .body .container .clearfix .service-title .service-wrap:hover {
-            background-color: #76c38f; }
+            background-color: #76c38f;
+            cursor: pointer; }
             .body .container .clearfix .service-title .service-wrap:hover .square-shape {
               background-color: #fff;
               color: #000000; }
@@ -3425,36 +3426,40 @@ html, body {
               color: #fff; }
             .body .container .clearfix .service-title .service-wrap:hover .para-text {
               color: #fff; }
+            .body .container .clearfix .service-title .service-wrap:hover .square-shape {
+              background: url("../../img/img-hover.png"); }
     .body .container .lastest-work {
       padding-bottom: 60px;
-      padding-top: 87px; }
+      padding-top: 40px; }
       .body .container .lastest-work .lastest-work-title {
         position: relative;
-        height: 40px; }
+        text-align: center;
+        margin-bottom: 15px; }
         .body .container .lastest-work .lastest-work-title .lastest-work-wrap {
+          display: inline-block;
           border-radius: 10px;
-          padding: 10px 15px;
-          text-align: center;
           color: #fff;
+          background-color: #3c3c3c; }
+        .body .container .lastest-work .lastest-work-title h1 {
+          font-size: 32px;
+          margin: 0;
+          padding: 10px 15px;
+          position: relative;
+          z-index: 1; }
+        .body .container .lastest-work .lastest-work-title .border {
+          height: 3px;
+          width: 100%;
+          background-color: #3c3c3c;
           position: absolute;
           top: 50%;
-          right: 50%;
-          -webkit-transform: translate(50%, -86%);
-          -khtml-transform: translate(50%, -86%);
-          -moz-transform: translate(50%, -86%);
-          -ms-transform: translate(50%, -86%);
-          -o-transform: translate(50%, -86%);
-          transform: translate(50%, -86%);
-          background-color: #3c3c3c; }
-          .body .container .lastest-work .lastest-work-title .lastest-work-wrap h2 {
-            font-size: 32px;
-            margin: 0; }
-        .body .container .lastest-work .lastest-work-title .border {
-          border-bottom: solid 3px #3c3c3c;
-          width: 960px; }
+          -webkit-transform: translateY(50%);
+          -khtml-transform: translateY(50%);
+          -moz-transform: translateY(50%);
+          -ms-transform: translateY(50%);
+          -o-transform: translateY(50%);
+          transform: translateY(50%); }
       .body .container .lastest-work .clearfix {
-        margin: 0 -15px;
-        padding-top: 3px; }
+        margin: 0 -15px; }
         .body .container .lastest-work .clearfix .img-last-work {
           float: left;
           padding: 15px 15px;
@@ -3497,6 +3502,106 @@ html, body {
                 margin-bottom: 0;
                 line-height: 30px; }
             .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover {
-              border-color: #76c38f; }
+              border-color: #76c38f;
+              cursor: pointer; }
               .body .container .lastest-work .clearfix .img-last-work .img-wrap:hover .text-bottom {
                 opacity: 0; }
+
+.footer {
+  background-color: #303030;
+  height: 449px; }
+  .footer .border {
+    border-bottom: 1px solid #000; }
+    .footer .border .container {
+      padding-top: 40px; }
+      .footer .border .container .clearfix {
+        padding-bottom: 60px; }
+        .footer .border .container .clearfix .col {
+          width: 25%;
+          float: left;
+          padding-right: 20px; }
+          .footer .border .container .clearfix .col .color-light-green {
+            color: #76c38f; }
+        .footer .border .container .clearfix .col1 {
+          width: 25%;
+          float: left; }
+          .footer .border .container .clearfix .col1 .color-light-green {
+            color: #76c38f; }
+          .footer .border .container .clearfix .col1 h3 {
+            color: #fff;
+            font-size: 16px;
+            margin: 0 0 30px 0; }
+          .footer .border .container .clearfix .col1 .text, .footer .border .container .clearfix .col1 .date {
+            color: #979797; }
+          .footer .border .container .clearfix .col1 h4 {
+            font-size: 13px;
+            margin: 0 0 15px 0;
+            font-weight: bold; }
+          .footer .border .container .clearfix .col1 .date {
+            margin: 10px 0 15px 0; }
+          .footer .border .container .clearfix .col1 .text {
+            font-size: 13px; }
+          .footer .border .container .clearfix .col1 .admin, .footer .border .container .clearfix .col1 .domain, .footer .border .container .clearfix .col1 .date {
+            font-size: 10px; }
+          .footer .border .container .clearfix .col1 .domain {
+            color: #666666; }
+          .footer .border .container .clearfix .col1 .read-more {
+            font-size: 13px;
+            cursor: pointer;
+            text-decoration: none; }
+        .footer .border .container .clearfix .col2 h3 {
+          color: #fff;
+          font-size: 16px;
+          margin: 0 0 30px 0; }
+        .footer .border .container .clearfix .col2 .text-row {
+          border-bottom: 1px solid #404040;
+          padding: 5px 0; }
+          .footer .border .container .clearfix .col2 .text-row a {
+            font-size: 13px;
+            cursor: pointer;
+            text-decoration: none; }
+        .footer .border .container .clearfix .col3 h3 {
+          font-size: 16px;
+          color: #fff;
+          margin: 0 0 35px 0; }
+        .footer .border .container .clearfix .col3 p {
+          font-size: 13px;
+          color: #666666; }
+        .footer .border .container .clearfix .col3 .padding-bottom {
+          padding-bottom: 30px; }
+        .footer .border .container .clearfix .col4 h3 {
+          font-size: 16px;
+          color: #fff;
+          margin: 0 0 35px 0; }
+        .footer .border .container .clearfix .col4 input, .footer .border .container .clearfix .col4 textarea {
+          background-color: #222222;
+          color: #989898;
+          margin-bottom: 10px;
+          border: none;
+          border-radius: 10px;
+          width: 100%;
+          height: 35px;
+          outline: none;
+          font-size: 13px;
+          padding-left: 10px; }
+        .footer .border .container .clearfix .col4 textarea {
+          height: 75px; }
+        .footer .border .container .clearfix .col4 .submit {
+          background-color: #76c38f;
+          color: #303030;
+          width: 75px;
+          padding-left: 0;
+          padding-right: 0;
+          font-weight: bold; }
+  .footer .copyright {
+    color: #979797;
+    background-color: #2b2b2b;
+    line-height: 60px; }
+    .footer .copyright .container {
+      font-size: 12px;
+      padding: 0; }
+      .footer .copyright .container .contain {
+        float: left;
+        padding: 0; }
+      .footer .copyright .container .template {
+        float: right; }
