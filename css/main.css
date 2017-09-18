@@ -3508,8 +3508,7 @@ html, body {
                 opacity: 0; }
 
 .footer {
-  background-color: #303030;
-  height: 449px; }
+  background-color: #303030; }
   .footer .border {
     border-bottom: 1px solid #000; }
     .footer .border .container {
@@ -3535,10 +3534,10 @@ html, body {
             color: #979797; }
           .footer .border .container .clearfix .col1 h4 {
             font-size: 13px;
-            margin: 0 0 15px 0;
+            margin: 0 0 10px 0;
             font-weight: bold; }
           .footer .border .container .clearfix .col1 .date {
-            margin: 10px 0 15px 0; }
+            margin: 5px 0 10px 0; }
           .footer .border .container .clearfix .col1 .text {
             font-size: 13px; }
           .footer .border .container .clearfix .col1 .admin, .footer .border .container .clearfix .col1 .domain, .footer .border .container .clearfix .col1 .date {
@@ -3566,9 +3565,8 @@ html, body {
           margin: 0 0 35px 0; }
         .footer .border .container .clearfix .col3 p {
           font-size: 13px;
-          color: #666666; }
-        .footer .border .container .clearfix .col3 .padding-bottom {
-          padding-bottom: 30px; }
+          color: #666666;
+          margin-bottom: 30px; }
         .footer .border .container .clearfix .col4 h3 {
           font-size: 16px;
           color: #fff;
@@ -3585,7 +3583,8 @@ html, body {
           font-size: 13px;
           padding-left: 10px; }
         .footer .border .container .clearfix .col4 textarea {
-          height: 75px; }
+          height: 75px;
+          max-width: 100%; }
         .footer .border .container .clearfix .col4 .submit {
           background-color: #76c38f;
           color: #303030;
