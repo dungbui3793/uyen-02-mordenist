@@ -2,146 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cddd1d4-033e-4170-bafe-ff4284ff81f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/css/vendor/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/css/vendor/slick-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/css/vendor/slick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/Alegreya-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/PlayfairDisplay-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/PlayfairDisplay-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/PlayfairDisplay-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/PlayfairDisplay-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/ProximaNovaA-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/ProximaNovaA-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/ProximaNovaA-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/ProximaNovaA-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/fonts/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/js/vendor/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/js/vendor/jquery-2.2.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/js/vendor/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/_font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/base/font-awesome/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_dialog.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_label.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_listgroup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_misc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_popup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_table.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/components/_thumbnail.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/helpers/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/helpers/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/layout/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/page/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/page/_body.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/page/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/page/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/themes/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bakery/scss/vendors/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/css/vendor/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/css/vendor/slick-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/css/vendor/slick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/img-last-work.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/left-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/right-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/service-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/thumb1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/thumb2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/img/thumb3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/js/vendor/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/js/vendor/jquery-2.2.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/js/vendor/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/_font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/base/font-awesome/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_dialog.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_label.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_listgroup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_misc.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_popup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_table.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/components/_thumbnail.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/helpers/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/helpers/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/layout/_sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/page/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/page/_body.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/page/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/page/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/themes/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mordenist/scss/vendors/.keep" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -207,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/axit/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -433,23 +293,23 @@
       <workItem from="1506333393277" duration="534000" />
       <workItem from="1506571017794" duration="597000" />
       <workItem from="1506656282185" duration="104000" />
-      <workItem from="1506938210937" duration="563000" />
+      <workItem from="1506938210937" duration="1140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7856000" />
+    <option name="totallyTimeSpent" value="8433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36940297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36940297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,7 +471,7 @@
     <entry file="file://$PROJECT_DIR$/axit/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
