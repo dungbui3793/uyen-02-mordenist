@@ -3235,16 +3235,55 @@ html, body {
     max-width: 100%; }
     .header .slider .container .slider-left {
       margin-top: 110px; }
+      @media only screen and (min-width: 376px) and (max-width: 414px) {
+        .header .slider .container .slider-left {
+          margin-top: 40px; } }
+      @media only screen and (min-width: 321px) {
+        .header .slider .container .slider-left {
+          margin-top: 40px; } }
+      @media only screen and (max-width: 320px) {
+        .header .slider .container .slider-left {
+          margin-top: 40px; } }
       .header .slider .container .slider-left h1, .header .slider .container .slider-left p {
         color: #ffffff; }
       .header .slider .container .slider-left h1 {
         margin: 30px 0 40px 0; }
+        @media only screen and (min-width: 376px) and (max-width: 414px) {
+          .header .slider .container .slider-left h1 {
+            font-size: 24px;
+            margin: 20px 0; } }
+        @media only screen and (min-width: 321px) {
+          .header .slider .container .slider-left h1 {
+            font-size: 24px;
+            margin: 20px 0; } }
+        @media only screen and (max-width: 320px) {
+          .header .slider .container .slider-left h1 {
+            font-size: 24px;
+            margin: 20px 0; } }
       .header .slider .container .slider-left p {
         margin: 38px 0 47px 0; }
+        @media only screen and (min-width: 376px) and (max-width: 414px) {
+          .header .slider .container .slider-left p {
+            margin: 20px 0; } }
+        @media only screen and (min-width: 321px) {
+          .header .slider .container .slider-left p {
+            margin: 20px 0; } }
+        @media only screen and (max-width: 320px) {
+          .header .slider .container .slider-left p {
+            margin: 20px 0; } }
       .header .slider .container .slider-left .border {
         margin: 25px 0;
         border-bottom: solid 2px #ffffff;
         width: 65px; }
+        @media only screen and (min-width: 376px) and (max-width: 414px) {
+          .header .slider .container .slider-left .border {
+            margin: 10px 0; } }
+        @media only screen and (min-width: 321px) {
+          .header .slider .container .slider-left .border {
+            margin: 10px 0; } }
+        @media only screen and (max-width: 320px) {
+          .header .slider .container .slider-left .border {
+            margin: 10px 0; } }
       .header .slider .container .slider-left button {
         background: transparent;
         color: #ffffff;
@@ -3254,11 +3293,35 @@ html, body {
       margin-top: 140px;
       border-radius: 5px;
       padding-left: 120px; }
+      @media only screen and (min-width: 376px) and (max-width: 414px) {
+        .header .slider .container .slider-right {
+          margin-top: 50px;
+          padding: 0 20px 0 20px; } }
+      @media only screen and (min-width: 321px) {
+        .header .slider .container .slider-right {
+          margin-top: 50px;
+          padding: 0 20px 0 20px; } }
+      @media only screen and (max-width: 320px) {
+        .header .slider .container .slider-right {
+          margin-top: 20px;
+          padding: 0 20px 0 20px; } }
       .header .slider .container .slider-right .slider-right-top {
         background-color: #f5f5f5;
         text-align: center;
         font-size: 20px;
         padding: 15px 0; }
+        @media only screen and (min-width: 376px) and (max-width: 414px) {
+          .header .slider .container .slider-right .slider-right-top {
+            padding: 10px 0;
+            font-size: 14px; } }
+        @media only screen and (min-width: 321px) {
+          .header .slider .container .slider-right .slider-right-top {
+            padding: 10px 0;
+            font-size: 14px; } }
+        @media only screen and (max-width: 320px) {
+          .header .slider .container .slider-right .slider-right-top {
+            padding: 10px 0;
+            font-size: 14px; } }
         .header .slider .container .slider-right .slider-right-top span {
           color: #ff9b51; }
       .header .slider .container .slider-right .slide-right-body {
@@ -3272,11 +3335,26 @@ html, body {
           padding-top: 35px;
           padding-bottom: 5px;
           border-bottom: 1px solid #f5f5f5; }
+          @media only screen and (min-width: 376px) and (max-width: 414px) {
+            .header .slider .container .slider-right .slide-right-body .input {
+              padding-top: 15px; } }
+          @media only screen and (max-width: 320px) {
+            .header .slider .container .slider-right .slide-right-body .input {
+              padding-top: 15px; } }
       .header .slider .container .slider-right .slider-right-bottom {
         background-color: #ff9b51;
         color: #ffffff;
         text-align: center;
         padding: 20px 0; }
+        @media only screen and (min-width: 376px) and (max-width: 414px) {
+          .header .slider .container .slider-right .slider-right-bottom {
+            padding: 10px 0; } }
+        @media only screen and (min-width: 321px) {
+          .header .slider .container .slider-right .slider-right-bottom {
+            padding: 10px 0; } }
+        @media only screen and (max-width: 320px) {
+          .header .slider .container .slider-right .slider-right-bottom {
+            padding: 10px 0; } }
   .header .bottom-header .container {
     padding: 0; }
     .header .bottom-header .container .social-media {
@@ -3292,7 +3370,17 @@ html, body {
     .header .bottom-header .container .img-social {
       float: right;
       vertical-align: middle;
-      margin-top: 30px; }
+      margin-top: 30px;
+      max-width: 100%; }
+      @media only screen and (min-width: 376px) and (max-width: 414px) {
+        .header .bottom-header .container .img-social {
+          margin: 15px 0; } }
+      @media only screen and (min-width: 321px) {
+        .header .bottom-header .container .img-social {
+          margin: 15px 0; } }
+      @media only screen and (max-width: 320px) {
+        .header .bottom-header .container .img-social {
+          margin: 15px 0; } }
 
 .navbar-custom {
   padding: 10px 0; }
@@ -3544,6 +3632,12 @@ html, body {
   background-color: #f5f5f5;
   padding-bottom: 110px;
   padding-top: 150px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .tab {
+      padding: 70px 0; } }
+  @media only screen and (min-width: 321px) {
+    .tab {
+      padding: 70px 0; } }
   .tab .container .number-tab {
     flex-direction: column; }
     .tab .container .number-tab .sub-number-tab {
@@ -3566,15 +3660,22 @@ html, body {
         transform: translate(50%, -50%); }
     .tab .container .number-tab .sub1, .tab .container .number-tab .sub2 {
       border-bottom: solid 1px #ffffff; }
-    .tab .container .number-tab .tab-building-img {
-      max-width: 100%;
-      padding-left: 40px; }
+  .tab .container .tab-building-img {
+    padding-left: 40px;
+    max-width: 100%;
+    margin-top: 20px; }
   .tab .container .sub-tab-content {
     padding-right: 60px;
     padding-left: 40px; }
     .tab .container .sub-tab-content h3 {
       font-size: 20px;
       margin: 10px 0 55px 0; }
+      @media only screen and (min-width: 376px) and (max-width: 414px) {
+        .tab .container .sub-tab-content h3 {
+          margin-bottom: 30px; } }
+      @media only screen and (min-width: 321px) {
+        .tab .container .sub-tab-content h3 {
+          margin-bottom: 30px; } }
     .tab .container .sub-tab-content p {
       color: #86878b;
       font-size: 14px; }
@@ -3586,33 +3687,74 @@ html, body {
       background: #ff8b38;
       color: #ffffff;
       padding: 10px 30px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .tab .container img {
+      margin-top: 40px; } }
+  @media only screen and (min-width: 321px) {
+    .tab .container img {
+      margin-top: 40px; } }
 
-.sub-list {
-  height: 600px; }
-  .sub-list .container .sub-list-img {
-    padding: 100px 0; }
-  .sub-list .container .sub-list-content {
-    padding: 100px 0 130px 170px; }
-    .sub-list .container .sub-list-content h3 {
-      font-size: 20px;
-      margin: 0; }
-    .sub-list .container .sub-list-content .border {
-      margin: 25px 0;
-      border-bottom: solid 2px orange;
-      width: 65px; }
-    .sub-list .container .sub-list-content p {
-      font-size: 14px;
-      color: #c8c8ca;
-      margin-bottom: 45px; }
-    .sub-list .container .sub-list-content .paragraph-edit {
-      margin-bottom: 0; }
-    .sub-list .container .sub-list-content .sub-list-title img {
-      float: left;
-      margin-right: 30px; }
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+  .sub-list {
+    padding-bottom: 40px; } }
+@media only screen and (min-width: 321px) {
+  .sub-list {
+    padding-bottom: 40px; } }
+@media only screen and (max-width: 320px) {
+  .sub-list {
+    padding-bottom: 40px; } }
+.sub-list .container .sub-list-img {
+  padding: 100px 0;
+  max-width: 100%; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .sub-list .container .sub-list-img {
+      padding: 40px 0; } }
+  @media only screen and (min-width: 321px) {
+    .sub-list .container .sub-list-img {
+      padding: 40px 0; } }
+  @media only screen and (max-width: 320px) {
+    .sub-list .container .sub-list-img {
+      padding: 40px 0; } }
+.sub-list .container .sub-list-content {
+  padding: 100px 0 130px 170px; }
+  .sub-list .container .sub-list-content h3 {
+    font-size: 20px;
+    margin: 0; }
+  .sub-list .container .sub-list-content .border {
+    margin: 25px 0;
+    border-bottom: solid 2px orange;
+    width: 65px; }
+  .sub-list .container .sub-list-content p {
+    font-size: 14px;
+    color: #c8c8ca;
+    margin-bottom: 45px; }
+  .sub-list .container .sub-list-content .paragraph-edit {
+    margin-bottom: 0; }
+  .sub-list .container .sub-list-content .sub-list-title img {
+    float: left;
+    margin-right: 30px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .sub-list .container .sub-list-content {
+      padding-left: 0;
+      padding-top: 40px; } }
+  @media only screen and (min-width: 321px) {
+    .sub-list .container .sub-list-content {
+      padding-left: 0;
+      padding-top: 40px; } }
+  @media only screen and (max-width: 320px) {
+    .sub-list .container .sub-list-content {
+      padding-left: 0;
+      padding-top: 40px; } }
 
 .standard-picture {
   background-color: #f5f5f5;
   padding: 80px 0; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .standard-picture {
+      padding: 40px 0; } }
+  @media only screen and (min-width: 321px) {
+    .standard-picture {
+      padding: 40px 0; } }
   .standard-picture .container .clearfix .standard-picture-content {
     padding-right: 50px; }
     .standard-picture .container .clearfix .standard-picture-content h2 {
@@ -3627,16 +3769,28 @@ html, body {
       color: #a6a7a9; }
     .standard-picture .container .clearfix .standard-picture-content .paragraph-bottom {
       margin-top: 25px; }
-    .standard-picture .container .clearfix .standard-picture-content img {
-      padding-left: 100px; }
+  .standard-picture .container .clearfix .standard-img {
+    max-width: 100%; }
 
 .awesome {
   padding-top: 100px;
   padding-bottom: 100px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .awesome {
+      padding: 40px 0; } }
+  @media only screen and (min-width: 321px) {
+    .awesome {
+      padding: 40px 0; } }
   .awesome .container .awesome-title {
     margin-bottom: 70px;
     text-align: center;
     position: relative; }
+    @media only screen and (min-width: 376px) and (max-width: 414px) {
+      .awesome .container .awesome-title {
+        margin-bottom: 20px; } }
+    @media only screen and (min-width: 321px) {
+      .awesome .container .awesome-title {
+        margin-bottom: 20px; } }
     .awesome .container .awesome-title p {
       color: #a6a7a9;
       margin-top: 50px; }
@@ -3656,6 +3810,12 @@ html, body {
       transform: translateX(50%); }
   .awesome .container .clearfix .awesome-col {
     text-align: center; }
+    @media only screen and (min-width: 376px) and (max-width: 414px) {
+      .awesome .container .clearfix .awesome-col {
+        margin-top: 20px; } }
+    @media only screen and (min-width: 321px) {
+      .awesome .container .clearfix .awesome-col {
+        margin-top: 20px; } }
     .awesome .container .clearfix .awesome-col p {
       color: #a6a7a9; }
     .awesome .container .clearfix .awesome-col h3 {
@@ -3666,6 +3826,12 @@ html, body {
   background-color: #f5f5f5;
   padding-top: 100px;
   padding-bottom: 100px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .pricing-option {
+      padding: 40px 0; } }
+  @media only screen and (min-width: 321px) {
+    .pricing-option {
+      padding: 40px 0; } }
   .pricing-option .container .pricing-option-title {
     text-align: center; }
     .pricing-option .container .pricing-option-title h2 {
@@ -3689,6 +3855,12 @@ html, body {
   .pricing-option .container .clearfix .basic {
     text-align: center;
     margin-top: 115px; }
+    @media only screen and (min-width: 376px) and (max-width: 414px) {
+      .pricing-option .container .clearfix .basic {
+        margin-top: 20px; } }
+    @media only screen and (min-width: 321px) {
+      .pricing-option .container .clearfix .basic {
+        margin-top: 20px; } }
     .pricing-option .container .clearfix .basic .basic-wrap .top-basic {
       border-bottom: 1px solid #ffffff;
       background-color: #333333;
@@ -3794,6 +3966,10 @@ html, body {
 .contact {
   padding-top: 100px;
   padding-bottom: 80px; }
+  @media only screen and (min-width: 376px) and (max-width: 414px) {
+    .contact {
+      padding-bottom: 50px;
+      padding-top: 50px; } }
   .contact .container {
     text-align: center; }
     .contact .container .contact-title h2 {

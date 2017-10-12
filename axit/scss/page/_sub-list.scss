@@ -1,8 +1,28 @@
 .sub-list {
-    height: 600px;
+    @include bp-ip6-plus {
+        padding-bottom: 40px;
+    }
+    @include bp-ip6 {
+        padding-bottom: 40px;
+    }
+    @include bp-ip4 {
+        padding-bottom: 40px;
+    }
+
     .container {
         .sub-list-img {
             padding: 100px 0;
+            max-width: 100%;
+            @include bp-ip6-plus {
+                padding: 40px 0;
+            }
+            @include bp-ip6 {
+                padding: 40px 0;
+            }
+            @include bp-ip4 {
+                padding: 40px 0;
+            }
+
         }
         .sub-list-content {
             padding: 100px 0 130px 170px;
@@ -24,16 +44,26 @@
                 margin-bottom: 0;
             }
             .sub-list-title {
-               img {
+                img {
                     float: left;
-                   margin-right: 30px;
+                    margin-right: 30px;
                 }
                 .wrap-title {
 
-
                 }
             }
-
+            @include bp-ip6-plus {
+                padding-left: 0;
+                padding-top: 40px;
+            }
+            @include bp-ip6 {
+                padding-left: 0;
+                padding-top: 40px;
+            }
+            @include bp-ip4 {
+                padding-left: 0;
+                padding-top: 40px;
+            }
         }
 
     }
