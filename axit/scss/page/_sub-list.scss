@@ -1,0 +1,40 @@
+.sub-list {
+    height: 600px;
+    .container {
+        .sub-list-img {
+            padding: 100px 0;
+        }
+        .sub-list-content {
+            padding: 100px 0 130px 170px;
+            h3 {
+                font-size: 20px;
+                margin: 0;
+            }
+            .border {
+                margin: 25px 0;
+                border-bottom: solid 2px orange;
+                width: 65px;
+            }
+            p {
+                font-size: 14px;
+                color: #c8c8ca;
+                margin-bottom: 45px;
+            }
+            .paragraph-edit {
+                margin-bottom: 0;
+            }
+            .sub-list-title {
+               img {
+                    float: left;
+                   margin-right: 30px;
+                }
+                .wrap-title {
+
+
+                }
+            }
+
+        }
+
+    }
+}

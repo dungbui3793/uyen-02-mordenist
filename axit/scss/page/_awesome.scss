@@ -1,0 +1,40 @@
+.awesome {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container {
+        .awesome-title {
+            margin-bottom: 70px;
+            text-align: center;
+            position: relative;
+            p {
+                color: #a6a7a9;
+                margin-top: 50px;
+            }
+            h2 {
+                margin: 0;
+            }
+            .border {
+                margin: 25px 0;
+                border-bottom: solid 2px orange;
+                width: 65px;
+                position: absolute;
+                right: 50%;
+                @include css3-prefix('transform', 'translateX(50%)');
+            }
+
+        }
+        .clearfix {
+            .awesome-col {
+                text-align: center;
+                p {
+                    color: #a6a7a9;
+                }
+                h3 {
+                    margin: 25px 0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}
