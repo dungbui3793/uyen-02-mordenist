@@ -1,31 +1,24 @@
 .sub-list {
-    @include bp-ip6-plus {
-        padding-bottom: 40px;
+    @include ip6plus {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
-    @include bp-ip6 {
-        padding-bottom: 40px;
-    }
-    @include bp-ip4 {
-        padding-bottom: 40px;
-    }
-
     .container {
         .sub-list-img {
             padding: 100px 0;
             max-width: 100%;
-            //@include bp-ip6-plus {
-            //    padding: 40px 0;
-            //}
-            //@include bp-ip6 {
-            //    padding: 40px 0;
-            //}
-            //@include bp-ip4 {
-            //    padding: 40px 0;
-            //}
-
+            @include ip6plus {
+                padding: 0 0 40px 0;
+            }
         }
         .sub-list-content {
             padding: 100px 0 130px 170px;
+            @include ip6plus {
+                padding: 0;
+            }
+            @include ipadpro {
+                padding-left: 40px;
+            }
             h3 {
                 font-size: 20px;
                 margin: 0;
@@ -52,19 +45,6 @@
                     overflow: hidden;
                 }
             }
-            //@include bp-ip6-plus {
-            //    padding-left: 0;
-            //    padding-top: 40px;
-            //}
-            //@include bp-ip6 {
-            //    padding-left: 0;
-            //    padding-top: 40px;
-            //}
-            //@include bp-ip4 {
-            //    padding-left: 0;
-            //    padding-top: 40px;
-            //}
         }
-
     }
 }

@@ -1,12 +1,9 @@
 .standard-picture {
     background-color: #f5f5f5;
     padding: 80px 0;
-    //@include bp-ip6-plus {
-    //    padding: 40px 0;
-    //}
-    //@include bp-ip6 {
-    //    padding: 40px 0;
-    //}
+    @include ip6plus {
+        padding: 80px 0;
+    }
     .container {
         .clearfix {
             .standard-picture-content {

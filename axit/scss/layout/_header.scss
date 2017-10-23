@@ -34,9 +34,9 @@
         background-image: url(" ../img/bkg.png");
         height: 640px;
         max-width: 100%;
-        position: relative;
-
         .container {
+            position: relative;
+            height: 100%;
             .wrap-content-header {
                 position: absolute;
                 top: 50%;
@@ -44,20 +44,20 @@
                 .slider-left {
                     margin-top: 0;
                     .wrap-slider-left {
-                        width: 88%;
+                        //width: 88%;
                         img {
                             margin-bottom: 30px;
+                            @include ip6plus {
+                                width: 50%;
+                                margin-bottom: 15px;
+
+                            }
                         }
-                        //@include bp-ip6-plus {
-                        //    margin-top: 40px;
-                        //
-                        //}
-                        //@include bp-ip6 {
-                        //    margin-top: 40px;
-                        //}
-                        //@include bp-ip4 {
-                        //    margin-top: 40px;
-                        //}
+                        @include ip6plus {
+                            margin-top: 40px;
+
+                        }
+
                         h2, p {
                             color: #ffffff;
 
@@ -65,47 +65,23 @@
                         h2 {
                             font-size: 25px;
                             margin: 0 0 35px 0;
-
-                            //@include bp-ip6-plus {
-                            //    font-size: 24px;
-                            //    margin: 20px 0;
-                            //}
-                            //@include bp-ip6 {
-                            //    font-size: 24px;
-                            //    margin: 20px 0;
-                            //}
-                            //@include bp-ip4 {
-                            //    font-size: 24px;
-                            //    margin: 20px 0;
-                            //}
+                            @include ip6plus {
+                                font-size: 20px;
+                                margin-bottom: 15px;
+                            }
                         }
                         p {
                             margin: 35px 0 40px 0;
                             color: #6f7071;
                             font-size: 12px;
-                            //@include bp-ip6-plus {
-                            //    margin: 20px 0;
-                            //}
-                            //@include bp-ip6 {
-                            //    margin: 20px 0;
-                            //}
-                            //@include bp-ip4 {
-                            //    margin: 20px 0;
-                            //}
+                            @include ip6plus {
+                                margin: 15px 0;
+                            }
                         }
                         .border {
                             margin: 0;
                             border-bottom: solid 2px #ffffff;
                             width: 65px;
-                            //@include bp-ip6-plus {
-                            //    margin: 10px 0;
-                            //}
-                            //@include bp-ip6 {
-                            //    margin: 10px 0;
-                            //}
-                            //@include bp-ip4 {
-                            //    margin: 10px 0;
-                            //}
                         }
                         button {
                             background: transparent;
@@ -125,37 +101,25 @@
                 .slider-right {
                     max-width: 100%;
                     //padding-left: 120px;
-                    //@include bp-ip6-plus {
-                    //    margin-top: 50px;
-                    //    padding: 0 20px 0 20px;
-                    //}
-                    //@include bp-ip6 {
-                    //    margin-top: 50px;
-                    //    padding: 0 20px 0 20px;
-                    //}
-                    //@include bp-ip4 {
-                    //    margin-top: 20px;
-                    //    padding: 0 20px 0 20px;
-                    //}
+                    @include ip6plus {
+                        margin-top: 20px;
+                        padding: 0 15px 0 15px;
+                    }
                     .wrap-silder-right {
                         width: 61%;
+                        float: right;
+                        @include ip6plus {
+                            float: left;
+                        }
                         .slider-right-top {
                             background-color: #f5f5f5;
                             text-align: center;
                             font-size: 16px;
                             padding: 15px 0;
-                            //@include bp-ip6-plus {
-                            //    padding: 10px 0;
-                            //    font-size: 14px;
-                            //}
-                            //@include bp-ip6 {
-                            //    padding: 10px 0;
-                            //    font-size: 14px;
-                            //}
-                            //@include bp-ip4 {
-                            //    padding: 10px 0;
-                            //    font-size: 14px;
-                            //}
+                            @include ip6plus {
+                                padding: 10px 0;
+                                font-size: 14px;
+                            }
                             span {
                                 color: #ff9b51;
                             }
@@ -171,14 +135,18 @@
                                 padding-top: 35px;
                                 padding-bottom: 5px;
                                 border-bottom: 1px solid #d6d6d6;
-                                //@include bp-ip6-plus {
-                                //    padding-top: 15px;
-                                //}
-                                //
-                                //@include bp-ip4 {
-                                //    padding-top: 15px;
-                                //}
+                                @include ip6plus {
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                    font-size: 10px;
+                                }
+                                @include placeholder {
+                                    color: #d6d6d6;
+                                }
 
+                                @include ip6plus {
+                                    padding-top: 15px;
+                                }
                             }
                         }
                         .slider-right-bottom {
@@ -191,15 +159,10 @@
                             border-radius: inherit;
                             font-size: 12px;
                             @include css3-prefix('transition',0.5s);
-                            //@include bp-ip6-plus {
-                            //    padding: 10px 0;
-                            //}
-                            //@include bp-ip6 {
-                            //    padding: 10px 0;
-                            //}
-                            //@include bp-ip4 {
-                            //    padding: 10px 0;
-                            //}
+                            @include ip6plus {
+                                padding: 10px 0;
+                                font-size: 10px;
+                            }
                             &:hover {
                                 color: #000000;
                                 //background-color: #ffffff;
@@ -211,7 +174,6 @@
                 }
             }
         }
-
     }
 }
 
@@ -221,6 +183,9 @@
         .social-media {
             float: left;
             margin: 20px 0;
+            @include ip6plus {
+                margin: 10px;
+            }
             h3 {
                 margin-top: 0;
                 font-size: 20px;
@@ -236,17 +201,13 @@
             vertical-align: middle;
             margin-top: 30px;
             max-width: 100%;
-            //@include bp-ip6-plus {
-            //    margin: 15px 0;
-            //}
-            //@include bp-ip6 {
-            //    margin: 15px 0;
-            //
-            //}
-            //@include bp-ip4 {
-            //    margin: 15px 0;
-            //
-            //}
+            @include ip6plus {
+                margin: 10px 0;
+            }
+            @include ipadpro {
+                margin-top: 50px;
+            }
+
         }
     }
 }
