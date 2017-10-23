@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: 'ProximaNovaA-Regular';
-  src: url('../fonts/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/ProximaNovaA-Regular.woff') format('woff'), url('../fonts/ProximaNovaA-Regular.ttf')  format('truetype'), url('../fonts/ProximaNovaA-Regular.svg#ProximaNovaA-Regular') format('svg');
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf')  format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }

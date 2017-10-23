@@ -1,5 +1,6 @@
 .header {
     box-shadow: 0 0 10px 0 #d6d6d6;
+    position: relative;
     .top-header {
         background-color: #000000;
         img {
@@ -13,11 +14,17 @@
                 a {
                     color: #848484;;
                     padding: 0 25px;
+                    @include css3-prefix('transition',0.5s);
                     &:hover {
                         background-color: transparent;
                     }
                     &:focus {
                         background-color: transparent;
+                    }
+                }
+                &:hover {
+                    a {
+                        color: #ffffff;
                     }
                 }
             }
@@ -27,183 +34,219 @@
         background-image: url(" ../img/bkg.png");
         height: 640px;
         max-width: 100%;
+        position: relative;
+
         .container {
-            .slider-left {
-                margin-top: 110px;
-                @include bp-ip6-plus {
-                    margin-top: 40px;
-
-                }
-                @include bp-ip6 {
-                    margin-top: 40px;
-                }
-                @include bp-ip4 {
-                    margin-top: 40px;
-                }
-                h1, p {
-                    color: #ffffff;
-                }
-                h1 {
-                    margin: 30px 0 40px 0;
-                    @include bp-ip6-plus {
-                            font-size: 24px;
-                            margin: 20px 0;
-                    }
-                    @include bp-ip6{
-                        font-size: 24px;
-                        margin: 20px 0;
-                    }
-                    @include bp-ip4{
-                        font-size: 24px;
-                        margin: 20px 0;
-                    }
-                }
-                p {
-                    margin: 38px 0 47px 0;
-                    @include bp-ip6-plus {
-                        margin: 20px 0;
-                    }
-                    @include bp-ip6 {
-                        margin: 20px 0;
-                    }
-                    @include bp-ip4 {
-                        margin: 20px 0;
-                    }
-                }
-                .border {
-                    margin: 25px 0;
-                    border-bottom: solid 2px #ffffff;
-                    width: 65px;
-                    @include bp-ip6-plus {
-                        margin: 10px 0;
-                    }
-                    @include bp-ip6 {
-                        margin: 10px 0;
-                    }
-                    @include bp-ip4 {
-                        margin: 10px 0;
-                    }
-                }
-                button {
-                    background: transparent;
-                    color: #ffffff;
-                    border: solid 2px #ffffff;
-                    padding: 10px 30px;
-                }
-            }
-
-            .slider-right {
-                margin-top: 140px;
-                border-radius: 5px;
-                padding-left: 120px;
-                @include bp-ip6-plus {
-                    margin-top: 50px;
-                    padding: 0 20px 0 20px;
-                }
-                @include bp-ip6 {
-                    margin-top: 50px;
-                    padding: 0 20px 0 20px;
-                }
-                @include bp-ip4 {
-                    margin-top: 20px;
-                    padding: 0 20px 0 20px;
-                }
-                .slider-right-top {
-                    background-color: #f5f5f5;
-                    text-align: center;
-                    font-size: 20px;
-                    padding: 15px 0;
-                    @include bp-ip6-plus {
-                         padding: 10px 0;
-                         font-size: 14px;
-                     }
-                    @include bp-ip6 {
-                        padding: 10px 0;
-                        font-size: 14px;
-                    }
-                    @include bp-ip4 {
-                        padding: 10px 0;
-                        font-size: 14px;
-                    }
-                    span {
-                        color: #ff9b51;
-                    }
-                }
-                .slide-right-body {
-                    background-color: #ffffff;
-                    padding: 0 30px 30px 30px;
-                    .input {
-                        width: 100%;
-                        background-color: #ffffff;
-                        border: transparent;
-                        outline: none;
-                        padding-top: 35px;
-                        padding-bottom: 5px;
-                        border-bottom: 1px solid #f5f5f5;
-                        @include  bp-ip6-plus {
-                            padding-top: 15px;
-                        }
-
-                        @include  bp-ip4 {
-                            padding-top: 15px;
-                        }
-
-                    }
-                }
-                .slider-right-bottom {
-                    background-color: #ff9b51;
-                    color: #ffffff;
-                    text-align: center;
-                    padding: 20px 0;
-                    @include  bp-ip6-plus {
-                        padding: 10px 0;
-                    }
-                    @include  bp-ip6 {
-                        padding: 10px 0;
-                    }
-                    @include  bp-ip4 {
-                        padding: 10px 0;
-                    }
-                }
-
-            }
-
-        }
-    }
-    .bottom-header {
-        .container {
-            padding: 0;
-            .social-media {
-                float: left;
-                margin: 20px 0;
-                h3 {
+            .wrap-content-header {
+                position: absolute;
+                top: 50%;
+                @include css3-prefix('transform', 'translateY(-50%)');
+                .slider-left {
                     margin-top: 0;
-                    font-size: 20px;
-                }
-                p {
-                    font-size: 14px;
-                    color: #86878b;
-                    margin-bottom: 0;
-                }
-            }
-            .img-social {
-                float: right;
-                vertical-align: middle;
-                margin-top: 30px;
-                max-width: 100%;
-                @include bp-ip6-plus {
-                    margin: 15px 0;
-                }
-                @include bp-ip6 {
-                    margin: 15px 0;
+                    .wrap-slider-left {
+                        width: 88%;
+                        img {
+                            margin-bottom: 30px;
+                        }
+                        //@include bp-ip6-plus {
+                        //    margin-top: 40px;
+                        //
+                        //}
+                        //@include bp-ip6 {
+                        //    margin-top: 40px;
+                        //}
+                        //@include bp-ip4 {
+                        //    margin-top: 40px;
+                        //}
+                        h2, p {
+                            color: #ffffff;
+
+                        }
+                        h2 {
+                            font-size: 25px;
+                            margin: 0 0 35px 0;
+
+                            //@include bp-ip6-plus {
+                            //    font-size: 24px;
+                            //    margin: 20px 0;
+                            //}
+                            //@include bp-ip6 {
+                            //    font-size: 24px;
+                            //    margin: 20px 0;
+                            //}
+                            //@include bp-ip4 {
+                            //    font-size: 24px;
+                            //    margin: 20px 0;
+                            //}
+                        }
+                        p {
+                            margin: 35px 0 40px 0;
+                            color: #6f7071;
+                            font-size: 12px;
+                            //@include bp-ip6-plus {
+                            //    margin: 20px 0;
+                            //}
+                            //@include bp-ip6 {
+                            //    margin: 20px 0;
+                            //}
+                            //@include bp-ip4 {
+                            //    margin: 20px 0;
+                            //}
+                        }
+                        .border {
+                            margin: 0;
+                            border-bottom: solid 2px #ffffff;
+                            width: 65px;
+                            //@include bp-ip6-plus {
+                            //    margin: 10px 0;
+                            //}
+                            //@include bp-ip6 {
+                            //    margin: 10px 0;
+                            //}
+                            //@include bp-ip4 {
+                            //    margin: 10px 0;
+                            //}
+                        }
+                        button {
+                            background: transparent;
+                            color: #ffffff;
+                            border: solid 2px #ffffff;
+                            padding: 10px 30px;
+                            @include css3-prefix('transition',0.5s);
+                            &:hover {
+                                background-color: #ffffff;
+                                color: #000000;
+                            }
+                        }
+                    }
 
                 }
-                @include bp-ip4 {
-                    margin: 15px 0;
+
+                .slider-right {
+                    max-width: 100%;
+                    //padding-left: 120px;
+                    //@include bp-ip6-plus {
+                    //    margin-top: 50px;
+                    //    padding: 0 20px 0 20px;
+                    //}
+                    //@include bp-ip6 {
+                    //    margin-top: 50px;
+                    //    padding: 0 20px 0 20px;
+                    //}
+                    //@include bp-ip4 {
+                    //    margin-top: 20px;
+                    //    padding: 0 20px 0 20px;
+                    //}
+                    .wrap-silder-right {
+                        width: 61%;
+                        .slider-right-top {
+                            background-color: #f5f5f5;
+                            text-align: center;
+                            font-size: 16px;
+                            padding: 15px 0;
+                            //@include bp-ip6-plus {
+                            //    padding: 10px 0;
+                            //    font-size: 14px;
+                            //}
+                            //@include bp-ip6 {
+                            //    padding: 10px 0;
+                            //    font-size: 14px;
+                            //}
+                            //@include bp-ip4 {
+                            //    padding: 10px 0;
+                            //    font-size: 14px;
+                            //}
+                            span {
+                                color: #ff9b51;
+                            }
+                        }
+                        .slide-right-body {
+                            background-color: #ffffff;
+                            padding: 0 30px 30px 30px;
+                            .input {
+                                width: 100%;
+                                background-color: #ffffff;
+                                border: transparent;
+                                outline: none;
+                                padding-top: 35px;
+                                padding-bottom: 5px;
+                                border-bottom: 1px solid #d6d6d6;
+                                //@include bp-ip6-plus {
+                                //    padding-top: 15px;
+                                //}
+                                //
+                                //@include bp-ip4 {
+                                //    padding-top: 15px;
+                                //}
+
+                            }
+                        }
+                        .slider-right-bottom {
+                            background-color: #ff9b51;
+                            color: #ffffff;
+                            text-align: center;
+                            padding: 17px 0;
+                            width: 100%;
+                            max-width: 100%;
+                            border-radius: inherit;
+                            font-size: 12px;
+                            @include css3-prefix('transition',0.5s);
+                            //@include bp-ip6-plus {
+                            //    padding: 10px 0;
+                            //}
+                            //@include bp-ip6 {
+                            //    padding: 10px 0;
+                            //}
+                            //@include bp-ip4 {
+                            //    padding: 10px 0;
+                            //}
+                            &:hover {
+                                color: #000000;
+                                //background-color: #ffffff;
+                            }
+                        }
+
+                    }
 
                 }
             }
         }
+
     }
 }
 
+.bottom-header {
+    .container {
+        padding: 0;
+        .social-media {
+            float: left;
+            margin: 20px 0;
+            h3 {
+                margin-top: 0;
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+                color: #86878b;
+                margin-bottom: 0;
+            }
+        }
+        .img-social {
+            float: right;
+            vertical-align: middle;
+            margin-top: 30px;
+            max-width: 100%;
+            //@include bp-ip6-plus {
+            //    margin: 15px 0;
+            //}
+            //@include bp-ip6 {
+            //    margin: 15px 0;
+            //
+            //}
+            //@include bp-ip4 {
+            //    margin: 15px 0;
+            //
+            //}
+        }
+    }
+}

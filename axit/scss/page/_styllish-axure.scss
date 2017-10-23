@@ -29,6 +29,11 @@
             color: #ffffff;
             border: solid 2px #ffffff;
             padding: 10px 30px;
+            @include css3-prefix('transition',0.5s);
+            &:hover {
+                color: #000000;
+                background-color: #ffffff;
+            }
         }
     }
 

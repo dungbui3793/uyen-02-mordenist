@@ -1,19 +1,19 @@
 .standard-picture {
     background-color: #f5f5f5;
     padding: 80px 0;
-    @include bp-ip6-plus {
-        padding: 40px 0;
-    }
-    @include bp-ip6 {
-        padding: 40px 0;
-    }
+    //@include bp-ip6-plus {
+    //    padding: 40px 0;
+    //}
+    //@include bp-ip6 {
+    //    padding: 40px 0;
+    //}
     .container {
         .clearfix {
             .standard-picture-content {
                 padding-right: 50px;
-                h2 {
+                h3 {
                     margin: 0;
-                    font-size: 36px;
+                    font-size: 20px;
                 }
                 .border {
                     margin: 25px 0;

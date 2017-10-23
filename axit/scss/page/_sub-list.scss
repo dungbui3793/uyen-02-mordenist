@@ -13,15 +13,15 @@
         .sub-list-img {
             padding: 100px 0;
             max-width: 100%;
-            @include bp-ip6-plus {
-                padding: 40px 0;
-            }
-            @include bp-ip6 {
-                padding: 40px 0;
-            }
-            @include bp-ip4 {
-                padding: 40px 0;
-            }
+            //@include bp-ip6-plus {
+            //    padding: 40px 0;
+            //}
+            //@include bp-ip6 {
+            //    padding: 40px 0;
+            //}
+            //@include bp-ip4 {
+            //    padding: 40px 0;
+            //}
 
         }
         .sub-list-content {
@@ -49,21 +49,21 @@
                     margin-right: 30px;
                 }
                 .wrap-title {
-
+                    overflow: hidden;
                 }
             }
-            @include bp-ip6-plus {
-                padding-left: 0;
-                padding-top: 40px;
-            }
-            @include bp-ip6 {
-                padding-left: 0;
-                padding-top: 40px;
-            }
-            @include bp-ip4 {
-                padding-left: 0;
-                padding-top: 40px;
-            }
+            //@include bp-ip6-plus {
+            //    padding-left: 0;
+            //    padding-top: 40px;
+            //}
+            //@include bp-ip6 {
+            //    padding-left: 0;
+            //    padding-top: 40px;
+            //}
+            //@include bp-ip4 {
+            //    padding-left: 0;
+            //    padding-top: 40px;
+            //}
         }
 
     }
