@@ -14,18 +14,14 @@
              }
             p {
                 color: #a6a7a9;
-                margin-top: 50px;
             }
-            h2 {
+            h1 {
                 margin: 0;
             }
             .border {
-                margin: 25px 0;
+                margin: 25px auto;
                 border-bottom: solid 2px orange;
                 width: 65px;
-                position: absolute;
-                right: 50%;
-                @include css3-prefix('transform', 'translateX(50%)');
             }
 
         }

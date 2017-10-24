@@ -58,12 +58,11 @@
 
                         }
 
-                        h2, p {
+                        h1, p {
                             color: #ffffff;
 
                         }
-                        h2 {
-                            font-size: 25px;
+                        h1 {
                             margin: 0 0 35px 0;
                             @include ip6plus {
                                 font-size: 20px;
@@ -72,8 +71,7 @@
                         }
                         p {
                             margin: 35px 0 40px 0;
-                            color: #6f7071;
-                            font-size: 12px;
+                            color: #a6a7a9;
                             @include ip6plus {
                                 margin: 15px 0;
                             }
@@ -108,13 +106,14 @@
                     .wrap-silder-right {
                         width: 61%;
                         float: right;
+                        border-radius: 5px;
+                        overflow: hidden;
                         @include ip6plus {
                             float: left;
                         }
                         .slider-right-top {
                             background-color: #f5f5f5;
                             text-align: center;
-                            font-size: 16px;
                             padding: 15px 0;
                             @include ip6plus {
                                 padding: 10px 0;
@@ -156,8 +155,7 @@
                             padding: 17px 0;
                             width: 100%;
                             max-width: 100%;
-                            border-radius: inherit;
-                            font-size: 12px;
+                            border-radius: initial;
                             @include css3-prefix('transition',0.5s);
                             @include ip6plus {
                                 padding: 10px 0;
@@ -165,7 +163,6 @@
                             }
                             &:hover {
                                 color: #000000;
-                                //background-color: #ffffff;
                             }
                         }
 
@@ -191,7 +188,6 @@
                 font-size: 20px;
             }
             p {
-                font-size: 14px;
                 color: #86878b;
                 margin-bottom: 0;
             }

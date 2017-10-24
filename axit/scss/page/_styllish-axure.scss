@@ -10,31 +10,27 @@
         top: 50%;
         right: 50%;
         @include css3-prefix('transform', 'translate(50%, -50%)');
-        h2 {
+        h1 {
             margin: 0;
         }
         p {
             margin: 50px 0 30px 0;
         }
         .border {
-            margin: 25px 0;
+            margin: 25px auto;
             border-bottom: solid 2px;
             width: 65px;
-            position: absolute;
-            right: 50%;
-            @include css3-prefix('transform', 'translateX(50%)');
         }
         button {
             background: transparent;
             color: #ffffff;
             border: solid 2px #ffffff;
             padding: 10px 30px;
-            @include css3-prefix('transition',0.5s);
+            @include css3-prefix('transition', 0.5s);
             &:hover {
                 color: #000000;
                 background-color: #ffffff;
             }
         }
     }
-
 }
