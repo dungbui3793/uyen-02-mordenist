@@ -59,6 +59,9 @@ html, body {
   font-size: 14px;
     font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+    h3 {
+        font-family: OpenSans-Bold, sans-serif;
+    }
   @media #{$info-tablet-big} {
     font-size: 15px;
   }

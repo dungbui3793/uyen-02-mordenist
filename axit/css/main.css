@@ -3217,6 +3217,8 @@ html, body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased; }
+  html h3, body h3 {
+    font-family: OpenSans-Bold, sans-serif; }
   @media only screen and (max-width: 1160px) {
     html, body {
       font-size: 15px; } }
@@ -3283,14 +3285,16 @@ html, body {
           .header .slider .container .wrap-content-header .slider-left .wrap-slider-left h1, .header .slider .container .wrap-content-header .slider-left .wrap-slider-left p {
             color: #ffffff; }
           .header .slider .container .wrap-content-header .slider-left .wrap-slider-left h1 {
-            margin: 0 0 35px 0; }
+            margin: 0 0 35px 0;
+            font-family: 'Raleway', sans-serif; }
             @media only screen and (max-width: 414px) {
               .header .slider .container .wrap-content-header .slider-left .wrap-slider-left h1 {
                 font-size: 20px;
                 margin-bottom: 15px; } }
           .header .slider .container .wrap-content-header .slider-left .wrap-slider-left p {
             margin: 35px 0 40px 0;
-            color: #a6a7a9; }
+            color: #a6a7a9;
+            font-family: 'Raleway-Light', sans-serif; }
             @media only screen and (max-width: 414px) {
               .header .slider .container .wrap-content-header .slider-left .wrap-slider-left p {
                 margin: 15px 0; } }
@@ -3329,7 +3333,8 @@ html, body {
             .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slider-right-top {
               background-color: #f5f5f5;
               text-align: center;
-              padding: 15px 0; }
+              padding: 15px 0;
+              font-family: OpenSans-Bold, sans-serif; }
               @media only screen and (max-width: 414px) {
                 .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slider-right-top {
                   padding: 10px 0;
@@ -3396,6 +3401,7 @@ html, body {
       margin-top: 0;
       font-size: 20px; }
     .bottom-header .container .social-media p {
+      font-size: 14px;
       color: #86878b;
       margin-bottom: 0; }
   .bottom-header .container .img-social {
@@ -3667,8 +3673,6 @@ html, body {
     border: none;
     text-align: center; }
     .tab .container .tab-pills li {
-      width: 110px;
-      height: 110px;
       background-color: #000000;
       border-bottom: 1px solid #ffffff;
       margin: auto;
@@ -3687,8 +3691,12 @@ html, body {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px; }
       .tab .container .tab-pills li a {
+        width: 110px;
+        height: 110px;
+        padding: 0;
+        margin: 0;
         color: #ffffff;
-        margin: 30px auto;
+        line-height: 110px;
         background-color: transparent;
         border: none; }
         .tab .container .tab-pills li a:focus {
@@ -3857,11 +3865,14 @@ html, body {
       -o-transform: translateX(50%);
       transform: translateX(50%); }
   .pricing-option .container .clearfix {
-    display: inline-block; }
+    display: block;
+    margin-top: 80px; }
     .pricing-option .container .clearfix .basic {
       text-align: center;
-      margin-top: 115px;
-      display: inherit; }
+      display: inline-block;
+      padding: 0 20px;
+      width: 33.33%;
+      margin-right: -4px; }
       .pricing-option .container .clearfix .basic .basic-wrap .top-basic {
         border-bottom: 1px solid #ffffff;
         background-color: #333333;
@@ -3887,8 +3898,10 @@ html, body {
         padding: 10px 0; }
     .pricing-option .container .clearfix .professional {
       text-align: center;
-      margin-top: 40px;
-      display: inherit; }
+      display: inline-block;
+      padding: 0 20px;
+      width: 33.33%;
+      margin-right: -4px; }
       .pricing-option .container .clearfix .professional .professional-wrap .top-professional {
         border-bottom: 1px solid #ffffff;
         background-color: #333333;
@@ -3908,8 +3921,10 @@ html, body {
         padding: 10px 0; }
     .pricing-option .container .clearfix .enterprise {
       text-align: center;
-      margin-top: 115px;
-      display: inherit; }
+      display: inline-block;
+      padding: 0 20px;
+      width: 33.33%;
+      margin-right: -4px; }
       .pricing-option .container .clearfix .enterprise .enterprise-wrap .top-enterprise {
         border-bottom: 1px solid #ffffff;
         background-color: #333333;
@@ -3984,7 +3999,6 @@ html, body {
       width: 65px; }
     .contact .container .contact-title p {
       color: #97979b;
-      margin-top: 50px;
       margin-bottom: 0; }
     .contact .container .clearfix {
       margin-bottom: 40px; }
