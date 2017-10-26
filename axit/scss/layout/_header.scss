@@ -4,6 +4,10 @@
     .top-header {
         background-color: #000000;
         .container {
+            @include ip6plus {
+                position: relative;
+                @include css3-prefix('transition', 0.5)
+            }
             img {
                 float: left;
                 padding: 20px 0;
@@ -17,6 +21,11 @@
                 padding: 25px 0;
                 @include ip6plus {
                     display: none;
+                    position: absolute;
+                    right: 3%;
+                    padding: 35px 0;
+                    margin: 0;
+                    top: 50%;
                 }
             }
         }
