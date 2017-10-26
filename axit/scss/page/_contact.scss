@@ -10,6 +10,9 @@
         .contact-title {
             h1 {
                 margin: 0;
+                @include ip6plus {
+                    font-size: 20px;
+                }
             }
             .border {
                 margin: 25px auto;

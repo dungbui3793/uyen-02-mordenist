@@ -24,9 +24,15 @@
                 .paragraph-bottom {
                     margin-top: 25px;
                 }
+                @include ip6plus {
+                    padding: 0;
+                }
             }
             .standard-img {
                 max-width: 100%;
+                @include  ip6plus {
+                    padding: 0;
+                }
             }
 
         }

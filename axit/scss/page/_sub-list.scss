@@ -13,11 +13,11 @@
         }
         .sub-list-content {
             padding: 100px 0 130px 170px;
-            @include ip6plus {
-                padding: 0;
-            }
             @include ipadpro {
                 padding-left: 40px;
+            }
+            @include ip6plus {
+                padding: 0;
             }
             h3 {
                 font-size: 20px;

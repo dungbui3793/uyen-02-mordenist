@@ -5,6 +5,7 @@
     @include ip6plus {
         padding: 80px 0;
     }
+
     .container {
         .tab-pills {
             border: none;
@@ -20,11 +21,27 @@
                 &:first-child {
                     border-top-left-radius: 5px;
                     border-top-right-radius: 5px;
+                    @include ip6plus {
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: initial;
+                        border-top-right-radius: initial;
+
+                    }
                 }
                 &:last-child {
                     border-bottom-left-radius: 5px;
                     border-bottom-right-radius: 5px;
+                    @include ip6plus {
+                        border-bottom-left-radius: initial;
+                        border-bottom-right-radius: 5px;
+                        border-top-right-radius: 5px;
+                    }
                 }
+                @include ip6plus {
+                    width: 33.33%;
+                    padding: 0;
+                }
+
 
                 a {
                     width: 110px;
@@ -53,30 +70,6 @@
 
             }
         }
-        //.number-tab {
-        //    padding-left: 40px;
-        //    li {
-        //        border-bottom: solid 1px #ffffff;
-        //        background-color: #333333;
-        //        color: #ffffff;
-        //        margin: 0;
-        //        a {
-        //            padding: 50px 30px;
-        //            color: #ffffff;
-        //            border-radius: inherit;
-        //            @include css3-prefix('transition',0.5s);
-        //            &:hover {
-        //                background-color: #ff8b38;
-        //            }
-        //             &:focus {
-        //                 background-color: #ff8b38;
-        //             }
-        //            @include ip6plus {
-        //                padding: 20px 15px;
-        //            }
-        //        }
-        //    }
-        //}
         .tab-building-img {
             padding-left: 40px;
             max-width: 100%;
@@ -84,10 +77,17 @@
             @include ipadpro {
                 margin-top: 125px;
             }
+            @include ip6plus {
+                padding: 0;
+                width: 100%;
+            }
         }
         .sub-tab-content {
             padding-right: 60px;
             padding-left: 40px;
+            @include ip6plus {
+                padding: 0;
+            }
             h3 {
                 font-size: 20px;
                 margin: 10px 0 55px 0;
