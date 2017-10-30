@@ -10,6 +10,9 @@
         .tab-pills {
             border: none;
             text-align: center;
+            .border-left {
+                border-left: 1px solid #ffffff;
+            }
             li {
                 background-color: #000000;
                 border-bottom: 1px solid #ffffff;
@@ -53,7 +56,7 @@
                     background-color: transparent;
                     border: none;
                     &:focus {
-                        background-color: transparent;
+                        background-color: #666666;
                         border: transparent;
                     }
                     &:hover {
@@ -73,7 +76,7 @@
         .tab-building-img {
             padding-left: 40px;
             max-width: 100%;
-            margin-top: 20px;
+            margin: 30px auto;
             @include ipadpro {
                 margin-top: 125px;
             }
@@ -100,7 +103,7 @@
                 font-size: 14px;
             }
             .paragraph1 {
-                margin-bottom: 25px;
+                margin-bottom: 20px;
             }
             .paragraph2 {
                 margin-bottom: 50px;

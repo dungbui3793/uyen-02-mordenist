@@ -3394,6 +3394,9 @@ html, body {
             .header .slider .container .wrap-content-header .slider-left .wrap-slider-left button:hover {
               background-color: #ffffff;
               color: #000000; }
+          @media only screen and (max-width: 414px) {
+            .header .slider .container .wrap-content-header .slider-left {
+              padding: 0; } }
         .header .slider .container .wrap-content-header .slider-right {
           max-width: 100%; }
           @media only screen and (max-width: 414px) {
@@ -3407,12 +3410,15 @@ html, body {
             overflow: hidden; }
             @media only screen and (max-width: 414px) {
               .header .slider .container .wrap-content-header .slider-right .wrap-silder-right {
-                float: left; } }
+                float: left;
+                width: 100%; } }
             .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slider-right-top {
               background-color: #f5f5f5;
               text-align: center;
               padding: 15px 0;
-              font-family: OpenSans-Bold, sans-serif; }
+              font-family: OpenSans-Bold, sans-serif;
+              font-weight: bold;
+              font-size: 20px; }
               @media only screen and (max-width: 414px) {
                 .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slider-right-top {
                   padding: 10px 0;
@@ -3421,7 +3427,7 @@ html, body {
                 color: #ff9b51; }
             .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slide-right-body {
               background-color: #ffffff;
-              padding: 0 30px 30px 30px; }
+              padding: 0 30px 50px 30px; }
               .header .slider .container .wrap-content-header .slider-right .wrap-silder-right .slide-right-body .input {
                 width: 100%;
                 background-color: #ffffff;
@@ -3477,7 +3483,8 @@ html, body {
           padding: 0; } }
       .header .bottom-header .container .social-media h3 {
         margin-top: 0;
-        font-size: 20px; }
+        font-size: 20px;
+        font-weight: bold; }
       .header .bottom-header .container .social-media p {
         font-size: 14px;
         color: #86878b;
@@ -3752,6 +3759,8 @@ html, body {
   .tab .container .tab-pills {
     border: none;
     text-align: center; }
+    .tab .container .tab-pills .border-left {
+      border-left: 1px solid #ffffff; }
     .tab .container .tab-pills li {
       background-color: #000000;
       border-bottom: 1px solid #ffffff;
@@ -3794,7 +3803,7 @@ html, body {
         background-color: transparent;
         border: none; }
         .tab .container .tab-pills li a:focus {
-          background-color: transparent;
+          background-color: #666666;
           border: transparent; }
         .tab .container .tab-pills li a:hover {
           background-color: transparent;
@@ -3806,7 +3815,7 @@ html, body {
   .tab .container .tab-building-img {
     padding-left: 40px;
     max-width: 100%;
-    margin-top: 20px; }
+    margin: 30px auto; }
     @media only screen and (max-width: 768px) {
       .tab .container .tab-building-img {
         margin-top: 125px; } }
@@ -3830,7 +3839,7 @@ html, body {
       color: #86878b;
       font-size: 14px; }
     .tab .container .sub-tab-content .paragraph1 {
-      margin-bottom: 25px; }
+      margin-bottom: 20px; }
     .tab .container .sub-tab-content .paragraph2 {
       margin-bottom: 50px; }
     .tab .container .sub-tab-content button {
@@ -3849,42 +3858,48 @@ html, body {
     .tab .container img {
       margin-top: 40px; } }
 
-@media only screen and (max-width: 414px) {
-  .sub-list {
-    padding-top: 80px;
-    padding-bottom: 80px; } }
-.sub-list .container .sub-list-img {
-  padding: 100px 0;
-  max-width: 100%; }
+.sub-list {
+  padding: 110px 0 135px 0; }
   @media only screen and (max-width: 414px) {
-    .sub-list .container .sub-list-img {
-      padding: 0 0 40px 0; } }
-.sub-list .container .sub-list-content {
-  padding: 100px 0 130px 170px; }
-  @media only screen and (max-width: 768px) {
-    .sub-list .container .sub-list-content {
-      padding-left: 40px; } }
-  @media only screen and (max-width: 414px) {
-    .sub-list .container .sub-list-content {
-      padding: 0; } }
-  .sub-list .container .sub-list-content h3 {
-    font-size: 20px;
-    margin: 0; }
-  .sub-list .container .sub-list-content .border {
-    margin: 25px 0;
-    border-bottom: solid 2px orange;
-    width: 65px; }
-  .sub-list .container .sub-list-content p {
-    font-size: 14px;
-    color: #c8c8ca;
-    margin-bottom: 45px; }
-  .sub-list .container .sub-list-content .paragraph-edit {
-    margin-bottom: 0; }
-  .sub-list .container .sub-list-content .sub-list-title img {
-    float: left;
-    margin-right: 30px; }
-  .sub-list .container .sub-list-content .sub-list-title .wrap-title {
-    overflow: hidden; }
+    .sub-list {
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+  .sub-list .container .sub-list-img {
+    max-width: 100%; }
+    @media only screen and (max-width: 414px) {
+      .sub-list .container .sub-list-img {
+        padding: 0 0 40px 0; } }
+  .sub-list .container .sub-list-content {
+    padding: 0 0 0 170px; }
+    @media only screen and (max-width: 1024px) {
+      .sub-list .container .sub-list-content {
+        padding-left: 40px; } }
+    @media only screen and (max-width: 768px) {
+      .sub-list .container .sub-list-content {
+        padding-left: 40px; } }
+    @media only screen and (max-width: 414px) {
+      .sub-list .container .sub-list-content {
+        padding: 0; } }
+    .sub-list .container .sub-list-content h3 {
+      font-size: 20px;
+      margin: 0;
+      font-family: OpenSans-Bold, sans-serif;
+      font-weight: bold; }
+    .sub-list .container .sub-list-content .border {
+      margin: 25px 0;
+      border-bottom: solid 2px orange;
+      width: 65px; }
+    .sub-list .container .sub-list-content p {
+      font-size: 14px;
+      color: #c8c8ca;
+      margin-bottom: 45px; }
+    .sub-list .container .sub-list-content .paragraph-edit {
+      margin-bottom: 0; }
+    .sub-list .container .sub-list-content .sub-list-title img {
+      float: left;
+      margin-right: 30px; }
+    .sub-list .container .sub-list-content .sub-list-title .wrap-title {
+      overflow: hidden; }
 
 .standard-picture {
   background-color: #f5f5f5;
@@ -3893,10 +3908,13 @@ html, body {
     .standard-picture {
       padding: 80px 0; } }
   .standard-picture .container .clearfix .standard-picture-content {
-    padding-right: 50px; }
+    padding-right: 50px;
+    padding-top: 25px; }
     .standard-picture .container .clearfix .standard-picture-content h3 {
       margin: 0;
-      font-size: 20px; }
+      font-size: 20px;
+      font-family: OpenSans-Bold, sans-serif;
+      font-weight: bold; }
     .standard-picture .container .clearfix .standard-picture-content .border {
       margin: 25px 0;
       border-bottom: solid 2px orange;
@@ -3980,6 +3998,15 @@ html, body {
   .pricing-option .container .clearfix {
     display: block;
     margin-top: 80px; }
+    .pricing-option .container .clearfix .col .wrap-pricing .number {
+      background-color: #333333;
+      color: #ffffff; }
+      .pricing-option .container .clearfix .col .wrap-pricing .number .dolar {
+        font-size: 35px; }
+      .pricing-option .container .clearfix .col .wrap-pricing .number .number-size {
+        font-size: 94px;
+        font-family: Raleway, sans-serif;
+        font-weight: bold; }
     .pricing-option .container .clearfix .basic {
       text-align: center;
       display: inline-block;
@@ -3991,7 +4018,9 @@ html, body {
         background-color: #333333;
         color: #ffffff;
         padding-bottom: 20px;
-        padding-top: 20px; }
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: OpenSans-Bold, sans-serif; }
       .pricing-option .container .clearfix .basic .basic-wrap .bottom-basic {
         border-bottom: 5px solid #ff8b38;
         background-color: #333333;
@@ -4020,14 +4049,21 @@ html, body {
         background-color: #333333;
         color: #ffffff;
         padding-bottom: 20px;
-        padding-top: 20px; }
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: OpenSans-Bold, sans-serif; }
       .pricing-option .container .clearfix .professional .professional-wrap img {
         max-width: 100%; }
       .pricing-option .container .clearfix .professional .professional-wrap .bottom-professional {
         background-color: #333333;
-        border-bottom: 5px solid #ff8b38;
         color: #666666;
-        padding: 15px 0 40px 0; }
+        padding: 15px 0; }
+      .pricing-option .container .clearfix .professional .professional-wrap .most-popular {
+        background-color: #ff8b38;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 15px 0;
+        font-family: OpenSans-Bold, sans-serif; }
       .pricing-option .container .clearfix .professional .professional-wrap .basic-row {
         background-color: #ffffff;
         border-bottom: 2px solid #f5f5f5;
@@ -4043,7 +4079,9 @@ html, body {
         background-color: #333333;
         color: #ffffff;
         padding-bottom: 20px;
-        padding-top: 20px; }
+        padding-top: 20px;
+        font-size: 20px;
+        font-family: OpenSans-Bold, sans-serif; }
       .pricing-option .container .clearfix .enterprise .enterprise-wrap .balance-hover {
         height: 50px;
         border-bottom: 5px solid #ff8b38;
@@ -4058,7 +4096,8 @@ html, body {
       .pricing-option .container .clearfix .col {
         display: block;
         width: 100%;
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        padding: 0; }
         .pricing-option .container .clearfix .col .img-pricing {
           width: 100%; } }
 
@@ -4079,6 +4118,9 @@ html, body {
     -ms-transform: translate(50%, -50%);
     -o-transform: translate(50%, -50%);
     transform: translate(50%, -50%); }
+    @media only screen and (max-width: 414px) {
+      .stylish-axure .stylish-axure-content {
+        width: 100%; } }
     .stylish-axure .stylish-axure-content h1 {
       margin: 0; }
       @media only screen and (max-width: 414px) {
@@ -4179,3 +4221,52 @@ html, body {
       transition: 0.5s; }
       .contact .container button:hover {
         color: #000000; }
+
+.customer {
+  padding: 100px 0; }
+  .customer .container .customer-title {
+    text-align: center; }
+    .customer .container .customer-title h1 {
+      margin: 0; }
+      @media only screen and (max-width: 414px) {
+        .customer .container .customer-title h1 {
+          font-size: 20px; } }
+    .customer .container .customer-title p {
+      color: #97979b;
+      margin-bottom: 50px; }
+    .customer .container .customer-title .border {
+      margin: 30px auto;
+      border-bottom: solid 2px #ff8b38;
+      width: 65px; }
+  .customer .container .customer-content .customer-saying .txt {
+    padding: 20px 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 80%;
+    color: #a9aaac;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 414px) {
+      .customer .container .customer-content .customer-saying .txt {
+        width: 100%; } }
+  .customer .container .customer-content .customer-saying .apex-dn {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #f5f5f5;
+    margin-left: 20px;
+    margin-bottom: 10px; }
+  .customer .container .customer-content .customer-saying .information-person {
+    display: flex; }
+    .customer .container .customer-content .customer-saying .information-person img {
+      margin-right: 10px;
+      height: 100%; }
+    .customer .container .customer-content .customer-saying .information-person h3 {
+      font-family: OpenSans-Bold, sans-serif;
+      font-weight: bold;
+      font-size: 20px; }
+    .customer .container .customer-content .customer-saying .information-person p {
+      color: #d9d9db; }
+  @media only screen and (max-width: 414px) {
+    .customer .container .customer-content .customer-saying {
+      padding-bottom: 30px; } }

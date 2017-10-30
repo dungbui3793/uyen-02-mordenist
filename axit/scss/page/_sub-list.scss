@@ -1,18 +1,22 @@
 .sub-list {
+    padding: 110px 0 135px 0;
     @include ip6plus {
         padding-top: 80px;
         padding-bottom: 80px;
     }
     .container {
         .sub-list-img {
-            padding: 100px 0;
+            //padding: 100px 0;
             max-width: 100%;
             @include ip6plus {
                 padding: 0 0 40px 0;
             }
         }
         .sub-list-content {
-            padding: 100px 0 130px 170px;
+            padding: 0 0 0 170px;
+            @include ipad {
+                padding-left: 40px;
+            }
             @include ipadpro {
                 padding-left: 40px;
             }
@@ -22,6 +26,8 @@
             h3 {
                 font-size: 20px;
                 margin: 0;
+                font-family: OpenSans-Bold, sans-serif;
+                font-weight: bold;
             }
             .border {
                 margin: 25px 0;

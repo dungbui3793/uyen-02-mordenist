@@ -407,6 +407,12 @@
 
 /// Media-query Breakpoints
 
+@mixin ipad {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
 @mixin ipadpro {
     @media only screen and (max-width: 768px) {
         @content;

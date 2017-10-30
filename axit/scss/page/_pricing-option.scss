@@ -27,6 +27,22 @@
         }
         .clearfix {
             display: block;margin-top: 80px;
+            .col {
+                .wrap-pricing {
+                    .number {
+                        background-color: #333333;
+                        color: #ffffff;
+                        .dolar {
+                            font-size: 35px;
+                        }
+                        .number-size {
+                            font-size: 94px;
+                            font-family: Raleway, sans-serif;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
             .basic {
                 text-align: center;
                 display: inline-block;
@@ -40,6 +56,8 @@
                         color: #ffffff;
                         padding-bottom: 20px;
                         padding-top: 20px;
+                        font-size: 20px;
+                        font-family: OpenSans-Bold, sans-serif;
                     }
                     .bottom-basic {
                         border-bottom: 5px solid #ff8b38;
@@ -71,15 +89,25 @@
                         color: #ffffff;
                         padding-bottom: 20px;
                         padding-top: 20px;
+                        font-size: 20px;
+                        font-family: OpenSans-Bold, sans-serif;
+
                     }
                     img {
                         max-width: 100%;
                     }
                     .bottom-professional {
                         background-color: #333333;
-                        border-bottom: 5px solid #ff8b38;
+                        //border-bottom: 5px solid #ff8b38;
                         color: #666666;
-                        padding: 15px 0 40px 0;
+                        padding: 15px 0;
+                    }
+                    .most-popular {
+                        background-color: #ff8b38;
+                        color: #ffffff;
+                        font-size: 14px;
+                        padding: 15px 0;
+                        font-family: OpenSans-Bold, sans-serif;
                     }
                     .basic-row {
                         background-color: #ffffff;
@@ -101,6 +129,8 @@
                         color: #ffffff;
                         padding-bottom: 20px;
                         padding-top: 20px;
+                        font-size: 20px;
+                        font-family: OpenSans-Bold, sans-serif;
 
                     }
                     .balance-hover {
@@ -124,6 +154,7 @@
                     display: block;
                     width: 100%;
                     margin-bottom: 20px;
+                    padding: 0;
                     .img-pricing {
                         width: 100%;
                     }

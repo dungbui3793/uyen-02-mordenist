@@ -209,6 +209,9 @@
                             }
                         }
                     }
+                    @include ip6plus {
+                        padding: 0;
+                    }
 
                 }
 
@@ -226,12 +229,15 @@
                         overflow: hidden;
                         @include ip6plus {
                             float: left;
+                            width: 100%;
                         }
                         .slider-right-top {
                             background-color: #f5f5f5;
                             text-align: center;
                             padding: 15px 0;
                             font-family: OpenSans-Bold, sans-serif;
+                            font-weight: bold;
+                            font-size: 20px;
                             @include ip6plus {
                                 padding: 10px 0;
                                 font-size: 14px;
@@ -242,7 +248,7 @@
                         }
                         .slide-right-body {
                             background-color: #ffffff;
-                            padding: 0 30px 30px 30px;
+                            padding: 0 30px 50px 30px;
                             .input {
                                 width: 100%;
                                 background-color: #ffffff;
@@ -303,6 +309,7 @@
                 h3 {
                     margin-top: 0;
                     font-size: 20px;
+                    font-weight: bold;
                 }
                 p {
                     font-size: 14px;
