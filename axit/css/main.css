@@ -3492,8 +3492,16 @@ html, body {
     .header .bottom-header .container .img-social {
       float: right;
       vertical-align: middle;
-      margin-top: 30px;
-      max-width: 100%; }
+      margin-top: 30px; }
+      .header .bottom-header .container .img-social a {
+        margin-right: 6%; }
+        .header .bottom-header .container .img-social a:last-child {
+          margin-right: 0; }
+        .header .bottom-header .container .img-social a img {
+          max-width: 100%; }
+        @media only screen and (max-width: 768px) {
+          .header .bottom-header .container .img-social a {
+            margin-right: 6%; } }
       @media only screen and (max-width: 768px) {
         .header .bottom-header .container .img-social {
           margin-top: 50px; } }
@@ -3736,14 +3744,21 @@ html, body {
   height: 83px; }
   .footer .footer-wrap {
     position: absolute;
-    right: 50%;
     top: 50%;
+    right: 50%;
     -webkit-transform: translate(50%, -50%);
     -khtml-transform: translate(50%, -50%);
     -moz-transform: translate(50%, -50%);
     -ms-transform: translate(50%, -50%);
     -o-transform: translate(50%, -50%);
     transform: translate(50%, -50%); }
+    @media only screen and (max-width: 414px) {
+      .footer .footer-wrap {
+        width: 100%; } }
+    .footer .footer-wrap .img-social {
+      text-align: center; }
+      .footer .footer-wrap .img-social a {
+        margin-right: 20px; }
     .footer .footer-wrap p {
       margin-bottom: 0;
       margin-top: 10px;
@@ -3759,8 +3774,6 @@ html, body {
   .tab .container .tab-pills {
     border: none;
     text-align: center; }
-    .tab .container .tab-pills .border-left {
-      border-left: 1px solid #ffffff; }
     .tab .container .tab-pills li {
       background-color: #000000;
       border-bottom: 1px solid #ffffff;

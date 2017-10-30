@@ -11,7 +11,8 @@
             border: none;
             text-align: center;
             .border-left {
-                border-left: 1px solid #ffffff;
+                //border-left: 1px solid #ffffff;
+                //border-right: 1px solid #ffffff;
             }
             li {
                 background-color: #000000;
@@ -28,6 +29,7 @@
                         border-bottom-left-radius: 5px;
                         border-bottom-right-radius: initial;
                         border-top-right-radius: initial;
+
 
                     }
                 }

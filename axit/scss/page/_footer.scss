@@ -4,9 +4,22 @@
     height: 83px;
     .footer-wrap {
         position: absolute;
+        top:50%;
         right: 50%;
-        top: 50%;
         @include css3-prefix('transform', 'translate(50%, -50%)');
+        @include ip6plus {
+            width: 100%;
+        }
+        .img-social {
+
+            text-align: center;
+            a {
+                margin-right: 20px;
+
+            }
+
+
+        }
         p {
             margin-bottom: 0;
             margin-top: 10px;
