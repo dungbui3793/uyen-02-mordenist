@@ -33,6 +33,7 @@
             }
             .standard-img {
                 max-width: 100%;
+                padding-left: 100px;
                 @include  ip6plus {
                     padding: 0;
                 }
