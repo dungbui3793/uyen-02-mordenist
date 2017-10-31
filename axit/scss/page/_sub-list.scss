@@ -13,7 +13,7 @@
             }
         }
         .sub-list-content {
-            padding: 0 0 0 150px;
+            padding: 0 0 0 145px;
             @include ipad {
                 padding-left: 40px;
             }
@@ -41,6 +41,7 @@
             }
             .paragraph-edit {
                 margin-bottom: 0;
+
             }
             .sub-list-title {
                 img {

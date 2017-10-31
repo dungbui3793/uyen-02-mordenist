@@ -195,7 +195,9 @@
                         @include ip6plus {
                             margin: 15px 0;
                         }
-                        font-family: 'Raleway-Light', sans-serif;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 300;
+
 
                     }
                     .border {
@@ -245,8 +247,8 @@
                         background-color: #f5f5f5;
                         text-align: center;
                         padding: 15px 0;
-                        font-family: OpenSans-Bold, sans-serif;
-                        font-weight: bold;
+                        font-family: OpenSans, sans-serif;
+                        font-weight: 700;
                         font-size: 20px;
                         @include ip6plus {
                             padding: 10px 0;
@@ -289,6 +291,7 @@
                         width: 100%;
                         max-width: 100%;
                         border-radius: initial;
+                        font-weight: 700;
                         @include css3-prefix('transition', 0.5s);
                         @include ip6plus {
                             padding: 10px 0;
@@ -298,9 +301,7 @@
                             color: #000000;
                         }
                     }
-
                 }
-
             }
         }
     }
@@ -320,7 +321,7 @@
             h3 {
                 margin-top: 0;
                 font-size: 20px;
-                font-weight: bold;
+                font-weight: 700;
             }
             p {
                 font-size: 14px;
@@ -333,6 +334,7 @@
             float: right;
             vertical-align: middle;
             margin-top: 30px;
+            display: flex;
             @include ipadpro {
                 width: 57%;
             }
@@ -350,9 +352,6 @@
                     margin-right: 3%;
 
                 }
-                @include ip6plus {
-                    margin-right: 2%;
-                }
 
             }
 
@@ -362,7 +361,7 @@
             @include ip6plus {
                 margin: 10px 15px;
                 padding: 0;
-                width: 94%;
+                width: 92%;
 
             }
 

@@ -9,6 +9,7 @@
         position: absolute;
         top: 50%;
         right: 50%;
+        width: 100%;
         @include css3-prefix('transform', 'translate(50%, -50%)');
         @include ip6plus {
             width: 100%;
@@ -32,6 +33,7 @@
             color: #ffffff;
             border: solid 2px #ffffff;
             padding: 10px 30px;
+            font-weight: 700;
             @include css3-prefix('transition', 0.5s);
             &:hover {
                 color: #000000;

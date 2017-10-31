@@ -66,8 +66,9 @@
                         color: #666666;
                         padding: 0 0 15px 0;
                         @include css3-prefix('transition',1s);
-                        font-family: OpenSans-SemiBold, sans-serif;
+                        font-family: OpenSans, sans-serif;
                         font-weight: 700;
+                        font-style: italic;
                     }
                     img {
                         max-width: 100%;
@@ -94,8 +95,8 @@
                         padding-bottom: 20px;
                         padding-top: 20px;
                         font-size: 20px;
-                        font-family: OpenSans-Bold, sans-serif;
-                        font-weight: bold;
+                        font-family: OpenSans, sans-serif;
+                        font-weight: 700;
 
                     }
 
@@ -104,15 +105,17 @@
                         //border-bottom: 5px solid #ff8b38;
                         color: #666666;
                         padding: 0 0 15px 0;
-                        font-family: OpenSans-SemiBold, sans-serif;
+                        font-family: OpenSans, sans-serif;
                         font-weight: 700;
+                        font-style: italic;
                     }
                     .most-popular {
                         background-color: #ff8b38;
                         color: #ffffff;
                         font-size: 14px;
                         padding: 15px 0;
-                        font-family: OpenSans-Bold, sans-serif;
+                        font-family: OpenSans, sans-serif;
+                        font-weight: 700;
                     }
                     .basic-row {
                         background-color: #ffffff;
@@ -136,8 +139,8 @@
                         padding-bottom: 20px;
                         padding-top: 20px;
                         font-size: 20px;
-                        font-family: OpenSans-Bold, sans-serif;
-                        font-weight: bold;
+                        font-family: OpenSans, sans-serif;
+                        font-weight: 700;
 
                     }
                     .balance-hover {
@@ -150,8 +153,9 @@
                         border-bottom: 5px solid #ff8b38;
                         color: #666666;
                         padding: 0 0 15px 0;
-                        font-family: OpenSans-SemiBold, sans-serif;
+                        font-family: OpenSans, sans-serif;
                         font-weight: 700;
+                        font-style: italic;
 
                     }
                     .basic-row {

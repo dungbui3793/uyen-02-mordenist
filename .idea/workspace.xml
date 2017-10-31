@@ -5,12 +5,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/css/main.css" afterPath="$PROJECT_DIR$/axit/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/index.html" afterPath="$PROJECT_DIR$/axit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/base/_typography.scss" afterPath="$PROJECT_DIR$/axit/scss/base/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/axit/scss/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_awesome.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_awesome.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_contact.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_contact.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_customer.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_customer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_pricing-option.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_pricing-option.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_standard-picture.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_standard-picture.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_sub-list.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_sub-list.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_tab.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_tab.scss" />
     </list>
@@ -33,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/axit/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="226" column="32" lean-forward="true" selection-start-line="226" selection-start-column="32" selection-end-line="226" selection-end-column="32" />
+            <state relative-caret-position="-53">
+              <caret line="323" column="32" lean-forward="false" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -46,48 +47,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/axit/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="92">
+              <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
               <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1509355326556" expanded="true" signature="839:992" ph="..." />
-                <marker date="1509355326556" expanded="true" signature="932:960" ph="..." />
+                <marker date="1509416646955" expanded="true" signature="856:1009" ph="..." />
+                <marker date="1509416646955" expanded="true" signature="949:977" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sub-list.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/axit/scss/page/_sub-list.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_tab.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_tab.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/axit/scss/page/_tab.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_awesome.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/axit/scss/page/_awesome.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="299">
+              <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+              <folding>
+                <element signature="e#277#2922#0" expanded="false" />
+                <element signature="e#2953#3282#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +79,18 @@
       <file leaf-file-name="_pricing-option.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/axit/scss/page/_pricing-option.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="160" column="39" lean-forward="false" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+            <state relative-caret-position="-198">
+              <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_styllish-axure.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -105,8 +99,8 @@
       <file leaf-file-name="_customer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/axit/scss/page/_customer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state relative-caret-position="230">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -116,9 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>stylis</find>
-      <find>h2</find>
-      <find>li</find>
       <find>bỏ</find>
       <find>font</find>
       <find>titl</find>
@@ -142,10 +133,13 @@
       <find>month</find>
       <find>most</find>
       <find>bottom-professional</find>
-      <find>tab</find>
       <find>40</find>
       <find>Futu</find>
       <find>soci</find>
+      <find>im</find>
+      <find>social</find>
+      <find>tab</find>
+      <find>sub</find>
     </findStrings>
     <replaceStrings>
       <replace>md</replace>
@@ -174,22 +168,22 @@
         <option value="$PROJECT_DIR$/axit/scss/layout/_tab.scss" />
         <option value="$PROJECT_DIR$/mordenist/index.html" />
         <option value="$PROJECT_DIR$/axit/fonts/styles.css" />
-        <option value="$PROJECT_DIR$/axit/scss/base/_typography.scss" />
         <option value="$PROJECT_DIR$/axit/js/main.js" />
         <option value="$PROJECT_DIR$/axit/scss/helpers/_mixins.scss" />
-        <option value="$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss" />
         <option value="$PROJECT_DIR$/axit/scss/main.scss" />
         <option value="$PROJECT_DIR$/axit/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_footer.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_standard-picture.scss" />
+        <option value="$PROJECT_DIR$/axit/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/axit/scss/base/_typography.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_awesome.scss" />
+        <option value="$PROJECT_DIR$/axit/scss/page/_pricing-option.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_contact.scss" />
         <option value="$PROJECT_DIR$/axit/index.html" />
-        <option value="$PROJECT_DIR$/axit/scss/page/_tab.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_sub-list.scss" />
-        <option value="$PROJECT_DIR$/axit/scss/page/_pricing-option.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_customer.scss" />
-        <option value="$PROJECT_DIR$/axit/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss" />
+        <option value="$PROJECT_DIR$/axit/scss/page/_tab.scss" />
       </list>
     </option>
   </component>
@@ -224,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -414,6 +407,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,12 +543,13 @@
       <workItem from="1508833226857" duration="1889000" />
       <workItem from="1508982309783" duration="9875000" />
       <workItem from="1508992282778" duration="5480000" />
-      <workItem from="1509327603611" duration="22447000" />
+      <workItem from="1509327603611" duration="23550000" />
+      <workItem from="1509413154695" duration="4612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157478000" />
+    <option name="totallyTimeSpent" value="163193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,18 +561,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2061012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036006548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.036006548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22094926" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.024549918" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -737,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/axit/scss/page/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-460">
@@ -755,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,14 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="409" column="11" lean-forward="false" selection-start-line="409" selection-start-column="7" selection-end-line="409" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -795,10 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="111" column="41" lean-forward="true" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
-          <folding>
-            <marker date="1507606221358" expanded="true" signature="645:798" ph="..." />
-            <marker date="1507606221358" expanded="true" signature="738:766" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,15 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_awesome.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,72 +799,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axit/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="323" column="32" lean-forward="false" selection-start-line="323" selection-start-column="32" selection-end-line="323" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_contact.scss">
+    <entry file="file://$PROJECT_DIR$/axit/scss/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="264">
+          <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_tab.scss">
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="111" column="13" lean-forward="true" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_sub-list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="262">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/axit/scss/page/_pricing-option.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="155" column="45" lean-forward="false" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="160" column="39" lean-forward="false" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_sub-list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_customer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/axit/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="92">
+          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1509355326556" expanded="true" signature="839:992" ph="..." />
-            <marker date="1509355326556" expanded="true" signature="932:960" ph="..." />
+            <marker date="1509416646955" expanded="true" signature="856:1009" ph="..." />
+            <marker date="1509416646955" expanded="true" signature="949:977" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/page/_customer.scss">
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_styllish-axure.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axit/scss/layout/_header.scss">
+    <entry file="file://$PROJECT_DIR$/axit/scss/page/_tab.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="226" column="32" lean-forward="true" selection-start-line="226" selection-start-column="32" selection-end-line="226" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="299">
+          <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="e#277#2922#0" expanded="false" />
+            <element signature="e#2953#3282#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

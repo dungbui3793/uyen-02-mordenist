@@ -65,6 +65,7 @@
             background: #ff8b38;
             color: #ffffff;
             padding: 10px 30px;
+            font-weight: 700;
             @include css3-prefix('transition',0.5s);
             &:hover {
                 color: #000000;
