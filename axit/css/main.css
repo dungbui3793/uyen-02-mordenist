@@ -3851,52 +3851,53 @@ html, body {
           background-color: transparent; }
         .tab .container .col-sm-2 .tab-pills li a:active {
           background-color: transparent; }
-  .tab .container .col-sm-2 .tab-building-img {
+  .tab .container .tab-building-img {
     padding-left: 30px;
     max-width: 100%;
     margin: 30px auto; }
     @media only screen and (max-width: 768px) {
-      .tab .container .col-sm-2 .tab-building-img {
+      .tab .container .tab-building-img {
         margin-top: 125px; } }
     @media only screen and (max-width: 414px) {
-      .tab .container .col-sm-2 .tab-building-img {
+      .tab .container .tab-building-img {
         padding: 0;
         width: 100%; } }
-  .tab .container .col-sm-2 .sub-tab-content {
+  .tab .container .sub-tab-content {
     padding-right: 60px;
     padding-left: 40px; }
     @media only screen and (max-width: 414px) {
-      .tab .container .col-sm-2 .sub-tab-content {
+      .tab .container .sub-tab-content {
         padding: 0; } }
-    .tab .container .col-sm-2 .sub-tab-content h3 {
+    .tab .container .sub-tab-content h3 {
       font-size: 20px;
       margin: 10px 0 55px 0;
       font-weight: 700; }
       @media only screen and (max-width: 414px) {
-        .tab .container .col-sm-2 .sub-tab-content h3 {
+        .tab .container .sub-tab-content h3 {
           margin-bottom: 30px; } }
-    .tab .container .col-sm-2 .sub-tab-content p {
-      color: #86878b;
+    .tab .container .sub-tab-content p {
       font-size: 14px; }
-    .tab .container .col-sm-2 .sub-tab-content .paragraph1 {
-      margin-bottom: 20px; }
-    .tab .container .col-sm-2 .sub-tab-content .paragraph2 {
-      margin-bottom: 50px; }
-    .tab .container .col-sm-2 .sub-tab-content button {
-      background: #ff8b38;
-      color: #ffffff;
-      padding: 10px 30px;
-      font-weight: 700;
-      -webkit-transition: 0.5s;
-      -khtml-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s; }
-      .tab .container .col-sm-2 .sub-tab-content button:hover {
-        color: #000000; }
+    .tab .container .sub-tab-content .paragraph1 {
+      margin-bottom: 20px;
+      color: #a2a3a6; }
+    .tab .container .sub-tab-content .paragraph2 {
+      margin-bottom: 50px;
+      color: #a2a3a6; }
+  .tab .container button {
+    background: #ff8b38;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 700;
+    -webkit-transition: 0.5s;
+    -khtml-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    .tab .container button:hover {
+      color: #000000; }
   @media only screen and (max-width: 414px) {
-    .tab .container .col-sm-2 img {
+    .tab .container img {
       margin-top: 40px; } }
 
 .sub-list {

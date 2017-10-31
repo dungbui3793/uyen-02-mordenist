@@ -19,13 +19,13 @@
                     //border-right: 1px solid #ffffff;
                 }
                 .active {
-                    background-color:  #ff8b38;
+                    background-color: #ff8b38;
                 }
                 li {
                     background-color: #000000;
                     border-bottom: 1px solid #ffffff;
                     margin: auto;
-                    @include css3-prefix('transition',0.5s);
+                    @include css3-prefix('transition', 0.5s);
                     &:hover {
                         background-color: #ff8b38;
                     }
@@ -36,7 +36,6 @@
                             border-bottom-left-radius: 5px;
                             border-bottom-right-radius: initial;
                             border-top-right-radius: initial;
-
 
                         }
                     }
@@ -53,7 +52,6 @@
                         width: 33.33%;
                         padding: 0;
                     }
-
 
                     a {
                         width: 110px;
@@ -83,60 +81,61 @@
 
                 }
             }
-            .tab-building-img {
-                padding-left: 30px;
-                max-width: 100%;
-                margin: 30px auto;
-                @include ipadpro {
-                    margin-top: 125px;
-                }
+        }
+        .tab-building-img {
+            padding-left: 30px;
+            max-width: 100%;
+            margin: 30px auto;
+            @include ipadpro {
+                margin-top: 125px;
+            }
+            @include ip6plus {
+                padding: 0;
+                width: 100%;
+            }
+        }
+        .sub-tab-content {
+            padding-right: 60px;
+            padding-left: 40px;
+            @include ip6plus {
+                padding: 0;
+            }
+            h3 {
+                font-size: 20px;
+                margin: 10px 0 55px 0;
+                font-weight: 700;
                 @include ip6plus {
-                    padding: 0;
-                    width: 100%;
+                    margin-bottom: 30px;
                 }
             }
-            .sub-tab-content {
-                padding-right: 60px;
-                padding-left: 40px;
-                @include ip6plus {
-                    padding: 0;
-                }
-                h3 {
-                    font-size: 20px;
-                    margin: 10px 0 55px 0;
-                    font-weight: 700;
-                    @include ip6plus {
-                        margin-bottom: 30px;
-                    }
-                }
-                p {
-                    color: #86878b;
-                    font-size: 14px;
-                }
-                .paragraph1 {
-                    margin-bottom: 20px;
-                }
-                .paragraph2 {
-                    margin-bottom: 50px;
-                }
-                button {
-                    background: #ff8b38;
-                    color: #ffffff;
-                    padding: 10px 30px;
-                    font-weight: 700;
-                    @include css3-prefix('transition', 0.5s);
-                    &:hover {
-                        color: #000000;
-                        //background-color: #ffffff;
-                    }
-                }
+            p {
+                font-size: 14px;
             }
-            img {
-                @include ip6plus {
-                    margin-top: 40px;
-                }
+            .paragraph1 {
+                margin-bottom: 20px;
+                color: #a2a3a6;
+            }
+            .paragraph2 {
+                margin-bottom: 50px;
+                color: #a2a3a6;
             }
         }
 
+        button {
+            background: #ff8b38;
+            color: #ffffff;
+            padding: 10px 30px;
+            font-weight: 700;
+            @include css3-prefix('transition', 0.5s);
+            &:hover {
+                color: #000000;
+                //background-color: #ffffff;
+            }
+        }
+        img {
+            @include ip6plus {
+                margin-top: 40px;
+            }
+        }
     }
 }
