@@ -10,6 +10,7 @@
         .col-sm-2 {
             @include ip6plus {
                 padding: 0;
+                margin-bottom: 40px;
             }
             .tab-pills {
                 border: none;
@@ -126,6 +127,7 @@
             color: #ffffff;
             padding: 10px 30px;
             font-weight: 700;
+            border-radius: 0;
             @include css3-prefix('transition', 0.5s);
             &:hover {
                 color: #000000;

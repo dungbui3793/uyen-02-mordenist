@@ -6,6 +6,7 @@
     }
     .container {
         .clearfix {
+            position: relative;
             .standard-picture-content {
                 padding-right: 50px;
                 padding-top: 25px;
@@ -33,7 +34,10 @@
             }
             .standard-img {
                 max-width: 100%;
-                padding-left: 100px;
+                right: -80px;
+                @include ipad {
+                    right: 0;
+                }
                 @include  ip6plus {
                     padding: 0;
                 }

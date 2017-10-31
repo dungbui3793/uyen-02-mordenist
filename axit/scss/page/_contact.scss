@@ -8,6 +8,7 @@
     .container {
         text-align: center;
         .contact-title {
+            margin-bottom: 50px;
             h1 {
                 margin: 0;
                 @include ip6plus {
@@ -16,7 +17,7 @@
             }
             .border {
                 margin: 25px auto;
-                border-bottom: solid 2px  orange;
+                border-bottom: solid 2px  #ff8b38;
                 width: 65px;
             }
             p {
@@ -47,7 +48,7 @@
                 padding-left: 30px;
                 textarea {
                     padding-top: 35px;
-                    height: 189px;
+                    height: 183px;
                     width: 100%;
                     max-width: 100%;
                     background-color: #ffffff;
@@ -66,6 +67,7 @@
             color: #ffffff;
             padding: 10px 30px;
             font-weight: 700;
+            border-radius: 0;
             @include css3-prefix('transition',0.5s);
             &:hover {
                 color: #000000;
