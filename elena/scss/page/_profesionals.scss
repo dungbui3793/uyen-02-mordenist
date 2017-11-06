@@ -1,0 +1,38 @@
+.profesionals {
+    padding: 53px 0 65px;
+    background-color: #eeeeef;
+    .container {
+        text-align: center;
+        .clearfix {
+            .col {
+                padding: 0 15px;
+                img {
+                    margin-bottom: 30px;
+                }
+                h3 {
+                    margin-top: 0;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+                .border {
+                    width: 135px;
+                    border: 1px solid #e2e3e4;
+                    margin: 20px auto;
+
+                }
+                p {
+                    color: #787b80;
+                }
+                .personal {
+                    margin-top: 10px;
+                }
+                .heart {
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+
+
+}

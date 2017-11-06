@@ -1,0 +1,36 @@
+.themforest {
+    padding: 60px 0 60px 0;
+    .container {
+        .clearfix {
+            .content {
+                h2 {
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 0;
+                }
+                .border {
+                    margin-top: 20px;
+                    width: 250px;
+                    border: 1px solid #e2e3e4;
+                }
+                p {
+                    color: #787b80;
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                }
+
+                button {
+                    color: #ffffff;
+                    background-color: #d2d5da;
+                    border-radius: 20px;
+                    padding: 10px 25px;
+                    border: 0;
+                    font-size: 15px;
+                    &:hover {
+                        color: #50c3af;
+                    }
+                }
+            }
+        }
+    }
+}

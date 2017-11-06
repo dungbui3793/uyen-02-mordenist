@@ -1,0 +1,31 @@
+.layered {
+    padding: 60px 0 70px 0 ;
+    .container {
+        .clearfix {
+            img {
+                margin-bottom: 40px;
+            }
+            h2 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 16px;
+            }
+            .border {
+                width: 135px;
+                border: 1px solid #e2e3e4;
+                margin: 20px auto;
+            }
+            p {
+                color: #787b80;
+                margin-bottom: 20px;
+            }
+            .check {
+                color: #50c3af;
+                margin: 0;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+}

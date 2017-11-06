@@ -1,2 +1,20 @@
+.footer {
+    background-color: #f5f5f5;
+    .container {
+        line-height: 57px;
+        .color {
+            color: #aaacaf;
+        }
+        .icon {
+            display: flex;
+            float: right;
+            a {
+                img {
+                    margin-right: 15px;
+                }
+            }
+        }
 
+    }
+}
 

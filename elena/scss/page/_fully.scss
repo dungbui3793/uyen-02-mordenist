@@ -1,0 +1,39 @@
+.fully {
+    background-color: #eeeeef;
+    padding: 55px 0 77px 0;
+    .container {
+        .fully-title {
+            display: flex;
+            img {
+                margin-right: 20px;
+            }
+            h2 {
+                font-weight: 700;
+                font-size: 18px;
+                margin: 0;
+                padding: 10px 0 0 0;
+            }
+        }
+
+        .border {
+           margin: 15px 0 20px 0;
+
+
+        }
+        p {
+            color: #787b80;
+            margin-bottom: 35px;
+        }
+        button {
+            color: #ffffff;
+            background-color: #d2d5da;
+            border-radius: 20px;
+            padding: 10px 25px;
+            border: 0;
+            font-size: 15px;
+            &:hover {
+                color: #50c3af;
+            }
+        }
+    }
+}
