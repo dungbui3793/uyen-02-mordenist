@@ -1,31 +1,35 @@
 .template {
     background-color: #50c3af;
-    padding: 50px 0 70px 0;
+    padding: 48px 0 70px 0;
     .container {
         text-align: center;
-
         .template-title {
             display: inline-flex;
             img {
                 margin-right: 10px;
             }
+
             h2 {
                 font-weight: 700;
                 font-size: 18px;
                 color: #ffffff;
                 margin: 0;
-                padding: 10px 0 0 0;
+
             }
         }
         .border {
             width: 250px;
             border: 1px solid #61c8b6;
-            margin: 20px auto;
+            margin: 10px auto;
         }
         .logo {
             display: flex;
             img {
-                padding: 20px 30px 0 30px;
+                padding: 30px 30px 0 30px;
+                &:first-child {
+                    padding-left: 0;
+                }
+
             }
         }
     }
