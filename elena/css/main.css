@@ -3236,18 +3236,20 @@ html, body {
           .header .content-header ul li a:active {
             background-color: transparent;
             color: #50c3af; }
-    .header .content-header h1 {
+    .header .content-header .title-header {
       font-size: 53px;
       font-family: 'Ubuntu', sans-serif;
       font-weight: 700;
       color: #ffffff;
-      margin: 0 0 20px 0; }
+      margin-bottom: 0; }
     .header .content-header h2 {
       text-align: center;
       text-transform: uppercase; }
     .header .content-header h2.no-background {
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-top: 17px;
+      margin-bottom: 8px; }
       .header .content-header h2.no-background span {
         display: inline-block;
         vertical-align: baseline;
@@ -3264,7 +3266,7 @@ html, body {
           display: block;
           width: 100px;
           position: absolute;
-          top: 0.73em;
+          top: 0.5em;
           border-top: 2px solid #516b71; }
         .header .content-header h2.no-background span:before {
           right: 100%; }
@@ -3432,8 +3434,7 @@ html, body {
   padding: 65px 0 77px 0;
   background-color: #f5f5f5; }
   .reponsive .container .clearfix .col img {
-    margin-bottom: 40px;
-    max-width: 100%; }
+    margin-bottom: 40px; }
   .reponsive .container .clearfix .col h2 {
     font-weight: 700;
     font-size: 18px;
@@ -3474,7 +3475,8 @@ html, body {
   .layered .container .clearfix .col {
     padding: 0 8px; }
     .layered .container .clearfix .col img {
-      margin-bottom: 37px; }
+      margin-bottom: 37px;
+      width: 100%; }
     .layered .container .clearfix .col h2 {
       margin: 0;
       font-weight: 700;
@@ -3486,7 +3488,8 @@ html, body {
     .layered .container .clearfix .col p {
       color: #787b80;
       margin-bottom: 20px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      line-height: 1.5rem; }
     .layered .container .clearfix .col .check {
       color: #50c3af;
       margin: 0;

@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cddd1d4-033e-4170-bafe-ff4284ff81f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/img/border.png" afterPath="$PROJECT_DIR$/elena/img/border.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/axit/scss/page/_tab.scss" afterPath="$PROJECT_DIR$/axit/scss/page/_tab.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/css/main.css" afterPath="$PROJECT_DIR$/elena/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/css/vendor/bootstrap-theme.css" afterPath="$PROJECT_DIR$/elena/css/vendor/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/css/vendor/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/elena/css/vendor/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/css/vendor/bootstrap.css" afterPath="$PROJECT_DIR$/elena/css/vendor/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/css/vendor/bootstrap.min.css" afterPath="$PROJECT_DIR$/elena/css/vendor/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/index.html" afterPath="$PROJECT_DIR$/elena/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/layout/_footer.scss" afterPath="$PROJECT_DIR$/elena/scss/layout/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/elena/scss/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_fully.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_fully.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_layered.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_layered.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_profesionals.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_profesionals.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_reponsive.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_reponsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_send.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_send.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_template.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_template.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elena/scss/page/_themforest.scss" afterPath="$PROJECT_DIR$/elena/scss/page/_themforest.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,12 +31,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elena/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+            <state relative-caret-position="177">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="31" />
               <folding>
-                <marker date="1510220664537" expanded="true" signature="948:1101" ph="..." />
-                <marker date="1510220664537" expanded="true" signature="1041:1069" ph="..." />
+                <marker date="1510223842574" expanded="true" signature="948:1101" ph="..." />
+                <marker date="1510223842574" expanded="true" signature="1041:1069" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_themforest.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elena/scss/page/_themforest.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,7 +54,7 @@
       <file leaf-file-name="_template.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elena/scss/page/_template.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="598">
               <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
@@ -76,18 +74,30 @@
       <file leaf-file-name="_reponsive.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elena/scss/page/_reponsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="400">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layered.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elena/scss/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+              <folding>
+                <element signature="e#382#1599#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_layered.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elena/scss/page/_layered.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -117,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>im</find>
-      <find>btn</find>
       <find>social</find>
       <find>border</find>
       <find>sub</find>
@@ -147,6 +155,8 @@
       <find>repo</find>
       <find>lay</find>
       <find>fu</find>
+      <find>10px</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace>md</replace>
@@ -192,18 +202,18 @@
         <option value="$PROJECT_DIR$/elena/js/main.js" />
         <option value="$PROJECT_DIR$/elena/scss/base/_typography.scss" />
         <option value="$PROJECT_DIR$/elena/scss/main.scss" />
-        <option value="$PROJECT_DIR$/elena/scss/page/_themforest.scss" />
-        <option value="$PROJECT_DIR$/elena/scss/page/_reponsive.scss" />
         <option value="$PROJECT_DIR$/elena/scss/page/_profesionals.scss" />
         <option value="$PROJECT_DIR$/axit/scss/page/_tab.scss" />
         <option value="$PROJECT_DIR$/axit/index.html" />
-        <option value="$PROJECT_DIR$/elena/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/elena/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/elena/scss/page/_template.scss" />
         <option value="$PROJECT_DIR$/elena/scss/page/_send.scss" />
-        <option value="$PROJECT_DIR$/elena/index.html" />
         <option value="$PROJECT_DIR$/elena/scss/page/_fully.scss" />
         <option value="$PROJECT_DIR$/elena/scss/page/_layered.scss" />
+        <option value="$PROJECT_DIR$/elena/scss/page/_themforest.scss" />
+        <option value="$PROJECT_DIR$/elena/scss/page/_reponsive.scss" />
+        <option value="$PROJECT_DIR$/elena/index.html" />
+        <option value="$PROJECT_DIR$/elena/scss/layout/_header.scss" />
       </list>
     </option>
   </component>
@@ -489,12 +499,12 @@
       <workItem from="1509931853313" duration="26198000" />
       <workItem from="1510018210647" duration="4946000" />
       <workItem from="1510192448869" duration="11547000" />
-      <workItem from="1510209266002" duration="11979000" />
+      <workItem from="1510209266002" duration="14851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226350000" />
+    <option name="totallyTimeSpent" value="229222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,14 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elena/scss/page/_themforest.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elena/scss/page/_profesionals.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -852,22 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elena/scss/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elena/scss/page/_reponsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elena/scss/layout/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -884,25 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elena/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
-          <folding>
-            <marker date="1510220664537" expanded="true" signature="948:1101" ph="..." />
-            <marker date="1510220664537" expanded="true" signature="1041:1069" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elena/scss/page/_template.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elena/scss/page/_fully.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -911,11 +878,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elena/scss/page/_template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elena/scss/page/_layered.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elena/scss/page/_reponsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elena/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <marker date="1510223842574" expanded="true" signature="948:1101" ph="..." />
+            <marker date="1510223842574" expanded="true" signature="1041:1069" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elena/scss/page/_themforest.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elena/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="101" column="32" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="e#382#1599#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
