@@ -3267,13 +3267,20 @@ html, body {
         .header .content-header h2.no-background span:after {
           left: 100%; }
     .header .content-header button {
-      color: #ffffff;
+      color: #f5f5f5;
       background-color: #50c3af;
-      border-radius: 20px;
+      border-radius: 30px;
       font-weight: 700;
       padding: 15px 45px;
       border: 0;
-      font-size: 15px; }
+      font-size: 15px;
+      outline: none;
+      -webkit-transition: 0.5s;
+      -khtml-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
       .header .content-header button:hover {
         color: #666666; }
 
@@ -3281,8 +3288,11 @@ html, body {
   background-color: #f5f5f5; }
   .footer .container {
     line-height: 57px; }
+    .footer .container .elena {
+      color: #787b80;
+      font-size: 13px; }
     .footer .container .color {
-      color: #aaacaf; }
+      color: #b4b6b8; }
     .footer .container .icon {
       display: flex;
       float: right; }
@@ -3391,7 +3401,8 @@ html, body {
       .profesionals .container .clearfix .col h3 {
         margin-top: 0;
         font-weight: 700;
-        font-size: 16px; }
+        font-size: 16px;
+        color: #40474e; }
       .profesionals .container .clearfix .col .border {
         width: 135px;
         border: 1px solid #e2e3e4;
@@ -3412,7 +3423,8 @@ html, body {
   .reponsive .container .clearfix h2 {
     font-weight: 700;
     font-size: 18px;
-    margin: 0 0 3px 0; }
+    margin: 0 0 3px 0;
+    color: #40474e; }
   .reponsive .container .clearfix .border {
     width: 135px;
     border: 1px solid #ebecec;
@@ -3427,7 +3439,13 @@ html, body {
     border-radius: 20px;
     padding: 8px 15px;
     border: 0;
-    font-size: 15px; }
+    outline: none;
+    -webkit-transition: 0.5s;
+    -khtml-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
     .reponsive .container .clearfix .btn-reponsive:hover {
       color: #666666; }
 
@@ -3438,7 +3456,8 @@ html, body {
   .layered .container .clearfix h2 {
     margin: 0;
     font-weight: 700;
-    font-size: 16px; }
+    font-size: 16px;
+    color: #40474e; }
   .layered .container .clearfix .border {
     width: 135px;
     border: 1px solid #e2e3e4;
@@ -3461,7 +3480,8 @@ html, body {
     .fully .container .fully-title h2 {
       font-weight: 700;
       font-size: 18px;
-      margin: 0; }
+      margin: 0;
+      color: #384048; }
   .fully .container .border {
     margin: 15px 0 20px 0; }
   .fully .container p {
@@ -3473,7 +3493,13 @@ html, body {
     border-radius: 20px;
     padding: 8px 15px;
     border: 0;
-    font-size: 15px; }
+    outline: none;
+    -webkit-transition: 0.5s;
+    -khtml-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
     .fully .container button:hover {
       color: #50c3af; }
 
@@ -3488,7 +3514,8 @@ html, body {
     .send .container .clearfix .col .send-title h2 {
       font-size: 18px;
       font-weight: 700;
-      margin: 0; }
+      margin: 0;
+      color: #40474e; }
   .send .container .clearfix .col .border {
     width: 250px;
     border: 1px solid #e2e3e4; }
@@ -3502,7 +3529,13 @@ html, body {
     border-radius: 20px;
     padding: 8px 15px;
     border: 0;
-    font-size: 15px; }
+    outline: none;
+    -webkit-transition: 0.5s;
+    -khtml-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
     .send .container .clearfix .col button:hover {
       color: #666666; }
 
@@ -3511,7 +3544,8 @@ html, body {
   .themforest .container .clearfix .content h2 {
     font-size: 18px;
     font-weight: 700;
-    margin: 0; }
+    margin: 0;
+    color: #40474e; }
   .themforest .container .clearfix .content .border {
     margin-top: 20px;
     width: 250px;
@@ -3526,7 +3560,13 @@ html, body {
     border-radius: 20px;
     padding: 8px 15px;
     border: 0;
-    font-size: 15px; }
+    outline: none;
+    -webkit-transition: 0.5s;
+    -khtml-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
     .themforest .container .clearfix .content button:hover {
       color: #50c3af; }
 
@@ -3541,7 +3581,7 @@ html, body {
         margin-right: 10px; }
       .template .container .template-title h2 {
         font-weight: 700;
-        font-size: 18px;
+        font-size: 15px;
         color: #ffffff;
         margin: 0; }
     .template .container .border {

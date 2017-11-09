@@ -10,6 +10,7 @@
                 font-weight: 700;
                 font-size: 18px;
                 margin: 0 0 3px 0;
+                color: #40474e;
             }
             .border {
                 width: 135px;
@@ -29,7 +30,8 @@
                 border-radius: 20px;
                 padding: 8px 15px;
                 border: 0;
-                font-size: 15px;
+                outline: none;
+                @include css3-prefix('transition', 0.5s);
                 &:hover {
                     color: #666666;
                 }
