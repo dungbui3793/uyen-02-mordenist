@@ -5,6 +5,7 @@
         .elena {
             color: #787b80;
             font-size: 13px;
+            margin-left: 5px;
         }
         .color {
             color: #b4b6b8;
@@ -15,6 +16,11 @@
             a {
                 img {
                     margin-right: 15px;
+                }
+                &:last-child {
+                    img {
+                        margin-right: 0;
+                    }
                 }
             }
         }
