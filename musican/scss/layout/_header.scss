@@ -1,0 +1,68 @@
+.header {
+    .main-slider {
+        position: relative;
+        .header-container {
+            position: relative;
+            .navigation {
+                z-index: 10;
+                background-color: rgba(229,230,230, 0.8);
+                position: absolute;
+                width: 100%;
+                    .navbar-inverse {
+                        background-color: transparent;
+                        .container-fluid {
+                            padding: 0;
+                            .navbar-collapse {
+                                text-align: center;
+                                padding: 0;
+                                .nav {
+                                    display: inline-block;
+                                    float: none;
+                                    padding-top: 17px;
+                                    padding-bottom: 5px;
+                                    li {
+                                        padding-right: 39px;
+                                        a {
+                                            color: #606060;
+                                            font-family: 'Dosis', sans-serif;
+                                            font-size: 17px;
+                                            padding: 8px 0;
+                                            letter-spacing: 2px;
+                                            border-bottom: 2px solid transparent;
+                                            &:hover {
+                                                color: #000000;
+                                                border-bottom: 2px solid;
+
+                                            }
+                                        }
+                                        &:last-child {
+                                            padding-right: 0;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+
+
+                }
+            }
+        }
+        .carousel-inner {
+            .item {
+                background: url("../img/background.png") center;
+                height: 1062px;
+                width: 100%;
+                z-index: -1;
+                img {
+                    padding-top: 220px;
+                    position: absolute;
+                    right: 50%;
+                    transform: translateX(48%);
+                }
+            }
+        }
+    }
+}
+
