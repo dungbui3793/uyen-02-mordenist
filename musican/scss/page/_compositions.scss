@@ -1,0 +1,104 @@
+.composition {
+    padding-bottom: 105px;
+    padding-top: 100px;
+    .container {
+        .background {
+            letter-spacing: 6.5px;
+            &:before {
+               width: 51%;
+            }
+        }
+        .txt-compositions {
+            margin: 0 255px 160px 255px ;
+            text-align: center;
+
+        }
+        .clearfix {
+            margin-bottom: 54px;
+            .col-left-composition {
+                background-color: #f5f6f6;
+                padding: 32px 35px 37px 35px;
+                .date {
+                    font-weight: 700;
+                    padding: 0;
+                    margin-bottom: 9px;
+                }
+                .border {
+                    border: 1px solid;
+                    margin: 0;
+                    width: 394px;
+                }
+                .hell {
+                    margin-top: 6px;
+                    font-weight: 700;
+                    padding: 0;
+                    margin-bottom: 40px;
+                }
+                .paragraph-composition {
+                    margin-bottom: 60px;
+                    margin-top: 30px;
+                }
+                .title-col {
+                    font-size: 23px;
+                    color: black;
+                }
+                .wrap-btn-visit {
+
+                    button {
+                        padding: 17px 35px;
+                        background-color: transparent;
+                        border: 1px solid #b3b5b5;
+                        font-weight: 700;
+                        margin-right: 36px;
+                    }
+                    .icon {
+                        margin-right: 10px;
+                        display: inline-block;
+
+                    }
+
+                }
+            }
+            .col-last {
+                h3 {
+                    margin-bottom: 0;
+                }
+                .paragraph-composition {
+                    margin-top: 55px;
+                }
+
+            }
+            .arrow-img {
+                .arrow-left {
+                    width: 0;
+                    height: 0;
+                    border-top: 20px solid transparent;
+                    border-bottom: 20px solid transparent;
+                    border-right:12px solid #f5f6f6;
+                    position: absolute;
+                    z-index: 1000;
+                    top: 50%;
+                    right: 0;
+                    @include css3-prefix("transform", "translateY(-50%)");
+
+                }
+            }
+            .col-right-composition {
+                padding-left: 0;
+                .arrow-right {
+                    position: absolute;
+                    z-index: 1000;
+                    top: 50%;
+                    @include css3-prefix("transform", "translateY(-50%)");
+                    width: 0;
+                    height: 0;
+                    border-top: 20px solid transparent;
+                    border-bottom: 20px solid transparent;
+                    border-left: 12px solid #f5f6f6;
+
+                }
+            }
+        }
+
+    }
+}

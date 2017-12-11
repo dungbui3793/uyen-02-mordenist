@@ -1,32 +1,10 @@
 .discography {
     position: relative;
+    background: url("../img/background-discography.png") no-repeat center bottom;
+    padding-bottom: 340px;
     .container {
         h2 {
-            font-size: 50px;
-            margin: 30px 0 40px 0;
-            text-align: center;
             color: #99694f;
-            text-transform: uppercase;
-            letter-spacing: 12px;
-        }
-
-        h2.background {
-            position: relative;
-            z-index: 1;
-
-            &:before {
-                border-top: 2px solid #000000;
-                content:"";
-                margin: 0 auto;
-                position: absolute;
-                top: 50%; left: 0; right: 0; bottom: 0;
-                width: 45%;
-                z-index: -1;
-            }
-
-            span {
-                padding: 0 15px;
-            }
         }
         .txt-discography {
             text-align: center;
@@ -36,7 +14,7 @@
 
         }
         .clearfix {
-            margin-bottom: 110px;
+            margin-bottom: 108px;
             .col-left {
                 p {
                     margin-bottom: 8px;
@@ -52,9 +30,6 @@
                     font-weight: 700;
                     padding: 0;
                 }
-
-
-
             }
             .col-right {
                 h3 {
@@ -67,31 +42,44 @@
                     margin-bottom: 30px;
                     margin-top: 0;
                 }
-
-                .play-img {
-                    position: relative;
-                    span {
-                        color: #000000;
-                        text-underline: none;
-                        position: absolute;
-                        top: 50%;
-                        right: 50%;
-                        @include css3-prefix('transform','translate(50%,-50%)');
+                &:last-child {
+                    p {
+                        margin-bottom: 90px;
                     }
                 }
-            }
-            &:last-child {
-                margin-bottom: 0;
+                .wrap-play-img {
+                    background: url("../img/play-img-orginal.png") no-repeat;
+                    height: 56px;
+                    width: 197px;
+                    //margin-right: 373px;
+                    position: relative;
+                    .play-img {
+                        color: #000000;
+                        text-decoration: none;
+                        position: absolute;
+                        right: 50%;
+                        top: 50%;
+                        @include css3-prefix("transform", "translate(50%,-50%)");
+
+                    }
+                    @include css3-prefix("transition", .5s);
+                    &:hover {
+                        background: url("../img/play-img-hover.png") no-repeat;
+                        .play-img {
+                            color: #ffffff;
+                        }
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
-
     }
     .background-discography {
         position: absolute;
-        top: 83%;
-        max-width: 100%;
+        top: 87%;
         z-index: -1;
+        max-width: 100%;
     }
-
-
 }

@@ -1,0 +1,83 @@
+.upcoming {
+    padding-top: 325px;
+    padding-bottom: 185px;
+    background: url("../img/new-background.png") no-repeat center bottom;
+
+    .container {
+        .wrap-upcoming-main-content {
+            .upcoming-main-content {
+                padding: 0;
+                h2 {
+                    margin-top: 0;
+                    color: #42717e;
+                    letter-spacing: 6.5px;
+                    margin-bottom: 110px;
+                    text-align: left;
+                }
+                .border-bottom-h2 {
+                    border-bottom: 1px solid;
+                    width: 134px;
+                }
+                .background {
+                    &:before {
+                        border-top: 1px solid #000000;
+                        width: 84.5%;
+                        left: inherit;
+                        right: 98px;
+                    }
+                }
+                .wrap-address {
+
+                    .address {
+                        margin-top: 10px;
+                        padding-left: 0;
+                        color: #798285;
+                        margin-bottom: 20px;
+                    }
+                    &::after {
+                        border-left: 1px solid;
+                        height: 50px;
+                        position: relative;
+                        left: 34px;
+                    }
+                }
+                .wrap-first-date {
+                    margin-bottom: 20px;
+                    .first-date {
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        font-weight: 700;
+                        color: #595959;
+                    }
+                    &::after {
+                        content: "";
+                        border-left: 1px solid;
+                        height: 165px;
+                        position: relative;
+                        left: 34px;
+                        display: block;
+
+                    }
+                }
+                .wrap-long-paragraph-upcoming {
+                    color: #798285;
+                    margin-top: 23px;
+                    &::after {
+                        content: "";
+                        border-left: 1px solid #000000;
+                        height: 50px;
+                        position: relative;
+                        left: 34px;
+                        display: block;
+                    }
+
+                }
+                .date {
+                    font-weight: 700;
+                    margin-top: 10px;
+                    color: #595959;
+                }
+            }
+        }
+    }
+}

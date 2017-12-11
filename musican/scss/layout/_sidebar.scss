@@ -1,1 +1,106 @@
+.slider {
+    position: relative;
+    .next-btn {
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        @include css3-prefix("transform", "translateY(-50%)");
+        right: 0;
+
+        img {
+            cursor: pointer;
+
+        }
+
+    }
+
+    .pre-btn {
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        left: 0;
+        @include css3-prefix("transform", "translateY(-50%)");
+        img {
+            cursor: pointer;
+
+
+
+
+        }
+    }
+    .slider-music {
+        margin-bottom: 0;
+        text-align: center;
+        .wrap-slider {
+            position: relative;
+            .wrap-content-slider {
+                position: absolute;
+                top: 49%;
+                right: 50%;
+                @include css3-prefix("transform", "translate(50%,-50%)");
+
+                .slider-icon {
+                    display: block;
+                    margin-bottom: 30px;
+                    div {
+                        display: inline-block;
+                        margin-right: 30px;
+                        &:last-child, &:first-child {
+                            position: relative;
+                            top: -10px;
+                        }
+                    }
+
+                }
+                .paragraph-1 {
+                    color: #ffffff;
+                    margin-bottom: 48px;
+
+                    font-size: 18.49px;
+                    text-transform: uppercase;
+                }
+                .paragraph-2 {
+                    margin-bottom: 68px;
+                    color: #798285;
+                    margin-right: 45px;
+                    margin-left: 45px;
+                }
+                .paragraph-3 {
+                    color: #565e61;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+
+        .slick-dots li.slick-active button:before {
+            background: transparent;
+        }
+        .slick-dots {
+
+            height: fit-content;
+            bottom: 75px;
+            font-size: 20px;
+            line-height: 20px;
+            li button:before {
+                opacity: 1;
+                color: #ffffff;
+                background: #ffffff;
+                border: 1px solid #ffffff;
+                border-radius: 50%;
+                width: 10px;
+                content: "";
+                height: 10px;
+
+            }
+        }
+        .slick-dotted.slick-slider {
+            margin-bottom: 0;
+
+        }
+
+    }
+}
+
+
 

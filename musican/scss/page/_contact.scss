@@ -1,0 +1,61 @@
+.contact {
+    padding-top: 260px;
+    background: url("../img/contact_background.png") no-repeat center bottom;
+    padding-bottom: 285px;
+    h2 {
+        letter-spacing: 6.5px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .background {
+        &:before {
+            left: -56px;
+            width: 88%;
+            border-top: 1px solid;
+        }
+        p {
+            color: #798285;
+
+        }
+    }
+
+
+    .information {
+        display: inline-block;
+        margin-right: 120px;
+        margin-top: 26px;
+        .input {
+            display: block;
+            background-color: transparent;
+            border: transparent;
+            outline: none;
+            padding-top: 45px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid;
+            width: 380px;
+            &:last-child {
+            }
+        }
+    }
+    .icon {
+        display: inline-block;
+        position: relative;
+        top: 32px;
+        border-left: 1px solid;
+        padding-left: 30px;
+        div {
+            padding: 33px 0;
+            &:last-child {
+                padding-bottom: 0;
+            }
+            &:first-child {
+                padding-top: 0;
+            }
+        }
+    }
+    .send {
+        font-weight: 700;
+        margin-top: 26px;
+    }
+}

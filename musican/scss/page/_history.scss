@@ -1,0 +1,120 @@
+.history {
+    padding-top: 150px;
+    padding-bottom: 700px;
+    background: url("../img/history-background.png") no-repeat center bottom;
+    .background {
+        letter-spacing: 6.5px;
+        margin-top: 0;
+        margin-bottom: 46px;
+        &::before {
+            width: 20.3%;
+        }
+
+    }
+    .paragraph-history {
+        text-align: center;
+        margin: 0 298px 195px 298px;
+        color: #798285;
+    }
+    .wrap-date-time {
+        position: relative;
+        overflow: hidden;
+        height: 67px;
+        .date-time {
+            display: block;
+            margin: 0;
+            text-align: center;
+            width: 1830px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0;
+            //&:before, &:after {
+            //    content: '';
+            //    display: block;
+            //    width: 70px;
+            //    position: absolute;
+            //    top: 0.5em;
+            //    border-top: 2px solid #b1b1b1;
+            //
+            //}
+
+
+            .wrap-date-time-element {
+                float: left;
+                width: 340px;
+                &:nth-child(3) {
+                    width: 470px;
+                    h3.no-background {
+                        .date-month {
+                            color: #575a59;
+                        }
+                        .circle-before, .circle-after {
+
+                            width: 5px;
+                            height: 5px;
+                            background-color: #5a5c5b;
+                            border-radius: 50% ;
+                            border: 1px solid;
+                            display: inline-block;
+                            position: relative;
+                            top: -9px;
+
+                        }
+                        .circle-before {
+                            margin-right: 55px;
+                        }
+                        .circle-after {
+                            margin-left: 55px;
+                        }
+                    }
+                }
+                h3 {
+                    margin: 0;
+                }
+                h3.no-background {
+                    text-align: center;
+                    position: relative;
+                    //overflow: hidden;
+                    .date-month {
+                        font-family: "Droid Serif", sans-serif;
+                        color: #c7c7c7;
+                        display: inline-block;
+                        vertical-align: baseline;
+                        zoom: 1;
+                        position: relative;
+                        font-size: 35px;
+                        padding: 0 35px;
+                        &:before, &:after {
+                            content: '';
+                            display: block;
+                            width: 140px;
+
+                            position: absolute;
+                            top: 0.5em;
+                            border-top: 2px solid #b1b1b1;
+                        }
+
+                        &:before {
+                            right: 100%;
+                        }
+                        &:after {
+                            left: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div {
+        position: relative;
+        p {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 230px;
+            color: #5a5a58;
+        }
+    }
+}

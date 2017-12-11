@@ -1,0 +1,55 @@
+.concert {
+    background: url("../img/background-concert.png") no-repeat center bottom;
+    padding-top: 100px;
+    padding-bottom: 248px;
+    .container {
+        h2 {
+            color: #6aa6ae;
+        }
+        .txt-concert {
+            text-align: center;
+            margin: 0 115px 470px 115px;
+            color: #798285;
+            letter-spacing: 1.8px;
+        }
+        .col-left {
+            margin-bottom: 80px;
+            p {
+                margin-bottom: 8px;
+                font-weight: 700;
+                padding-top: 15px;
+            }
+            .border {
+                border: 1px solid;
+                margin: 0;
+                width: 394px;
+            }
+            .hell {
+                margin-top: 8px;
+                font-weight: 700;
+                padding: 0;
+                margin-bottom: 0;
+            }
+        }
+        .wrap-present {
+            margin-bottom: 40px;
+            .txt-present {
+                font-weight: 700;
+                font-size: 23px;
+                margin-bottom: 20px;
+            }
+            .paragraph-present {
+                margin-right: 555px;
+            }
+        }
+        button {
+            background: transparent;
+            border: 1px solid #b3b5b5;
+            font-weight: 700;
+            padding: 20px 50px;
+
+
+
+        }
+    }
+}

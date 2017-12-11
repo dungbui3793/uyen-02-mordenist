@@ -26,7 +26,7 @@
                                             color: #606060;
                                             font-family: 'Dosis', sans-serif;
                                             font-size: 17px;
-                                            padding: 8px 0;
+                                            padding: 7px 0;
                                             letter-spacing: 2px;
                                             border-bottom: 2px solid transparent;
                                             &:hover {
@@ -48,6 +48,9 @@
 
                 }
             }
+        }
+        .carousel-indicators li {
+            visibility: hidden;
         }
         .carousel-inner {
             .item {
